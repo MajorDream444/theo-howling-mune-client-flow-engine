@@ -11,3 +11,4 @@ tmp/
 graphify-out/.graphify_root
 graphify-out/.rebuild.lock
 graphify-out/manifest.json
+graphify-out/cache/
