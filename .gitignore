@@ -8,3 +8,6 @@ build/
 coverage/
 *.log
 tmp/
+graphify-out/.graphify_root
+graphify-out/.rebuild.lock
+graphify-out/manifest.json

@@ -1,0 +1,5205 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 4,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Theo / Howling Mune Client Flow Engine V1",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "community": 4,
+      "norm_label": "theo / howling mune client flow engine v1"
+    },
+    {
+      "label": "What Theo V1 Is",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "theo_howling_mune_client_flow_engine_readme_what_theo_v1_is",
+      "community": 4,
+      "norm_label": "what theo v1 is"
+    },
+    {
+      "label": "What It Is Not",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L18",
+      "id": "theo_howling_mune_client_flow_engine_readme_what_it_is_not",
+      "community": 4,
+      "norm_label": "what it is not"
+    },
+    {
+      "label": "Strategic Status",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "id": "theo_howling_mune_client_flow_engine_readme_strategic_status",
+      "community": 4,
+      "norm_label": "strategic status"
+    },
+    {
+      "label": "Implementation Status",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "id": "theo_howling_mune_client_flow_engine_readme_implementation_status",
+      "community": 4,
+      "norm_label": "implementation status"
+    },
+    {
+      "label": "System Loop",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "id": "theo_howling_mune_client_flow_engine_readme_system_loop",
+      "community": 4,
+      "norm_label": "system loop"
+    },
+    {
+      "label": "code:text (Client record in Airtable)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L47",
+      "id": "theo_howling_mune_client_flow_engine_readme_codeblock_1",
+      "community": 4,
+      "norm_label": "code:text (client record in airtable)"
+    },
+    {
+      "label": "Required Environment Variables",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "id": "theo_howling_mune_client_flow_engine_readme_required_environment_variables",
+      "community": 4,
+      "norm_label": "required environment variables"
+    },
+    {
+      "label": "Manual Test Flow",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L81",
+      "id": "theo_howling_mune_client_flow_engine_readme_manual_test_flow",
+      "community": 4,
+      "norm_label": "manual test flow"
+    },
+    {
+      "label": "Build Order",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L94",
+      "id": "theo_howling_mune_client_flow_engine_readme_build_order",
+      "community": 4,
+      "norm_label": "build order"
+    },
+    {
+      "label": "Human-Review Gates",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L103",
+      "id": "theo_howling_mune_client_flow_engine_readme_human_review_gates",
+      "community": 4,
+      "norm_label": "human-review gates"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "agents_md",
+      "community": 24,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "theo_howling_mune_client_flow_engine_agents_graphify",
+      "community": 24,
+      "norm_label": "graphify"
+    },
+    {
+      "label": "implementation-status.md",
+      "file_type": "document",
+      "source_file": "clients/implementation-status.md",
+      "source_location": "L1",
+      "id": "clients_implementation_status_md",
+      "community": 21,
+      "norm_label": "implementation-status.md"
+    },
+    {
+      "label": "Implementation Status",
+      "file_type": "document",
+      "source_file": "clients/implementation-status.md",
+      "source_location": "L1",
+      "id": "clients_implementation_status_implementation_status",
+      "community": 21,
+      "norm_label": "implementation status"
+    },
+    {
+      "label": "Current Status",
+      "file_type": "document",
+      "source_file": "clients/implementation-status.md",
+      "source_location": "L3",
+      "id": "clients_implementation_status_current_status",
+      "community": 21,
+      "norm_label": "current status"
+    },
+    {
+      "label": "Operationally Defined",
+      "file_type": "document",
+      "source_file": "clients/implementation-status.md",
+      "source_location": "L7",
+      "id": "clients_implementation_status_operationally_defined",
+      "community": 21,
+      "norm_label": "operationally defined"
+    },
+    {
+      "label": "Needs Live Wiring",
+      "file_type": "document",
+      "source_file": "clients/implementation-status.md",
+      "source_location": "L27",
+      "id": "clients_implementation_status_needs_live_wiring",
+      "community": 21,
+      "norm_label": "needs live wiring"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L1",
+      "id": "app_readme_md",
+      "community": 25,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "App",
+      "file_type": "document",
+      "source_file": "app/README.md",
+      "source_location": "L1",
+      "id": "app_readme_app",
+      "community": 25,
+      "norm_label": "app"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "app/intake-form/README.md",
+      "source_location": "L1",
+      "id": "app_intake_form_readme_md",
+      "community": 26,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Intake Form",
+      "file_type": "document",
+      "source_file": "app/intake-form/README.md",
+      "source_location": "L1",
+      "id": "intake_form_readme_intake_form",
+      "community": 26,
+      "norm_label": "intake form"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "app/landing-page/README.md",
+      "source_location": "L1",
+      "id": "app_landing_page_readme_md",
+      "community": 27,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Landing Page",
+      "file_type": "document",
+      "source_file": "app/landing-page/README.md",
+      "source_location": "L1",
+      "id": "landing_page_readme_landing_page",
+      "community": 27,
+      "norm_label": "landing page"
+    },
+    {
+      "label": "theo-vision-call-2026-04-21.md",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L1",
+      "id": "source_transcripts_theo_vision_call_2026_04_21_md",
+      "community": 8,
+      "norm_label": "theo-vision-call-2026-04-21.md"
+    },
+    {
+      "label": "\ud83d\udcdd Notes",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L1",
+      "id": "transcripts_theo_vision_call_2026_04_21_notes",
+      "community": 8,
+      "norm_label": "\ud83d\udcdd notes"
+    },
+    {
+      "label": "Theo Vision Call",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L5",
+      "id": "transcripts_theo_vision_call_2026_04_21_theo_vision_call",
+      "community": 8,
+      "norm_label": "theo vision call"
+    },
+    {
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L11",
+      "id": "transcripts_theo_vision_call_2026_04_21_summary",
+      "community": 8,
+      "norm_label": "summary"
+    },
+    {
+      "label": "Decisions",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L26",
+      "id": "transcripts_theo_vision_call_2026_04_21_decisions",
+      "community": 8,
+      "norm_label": "decisions"
+    },
+    {
+      "label": "ALIGNED",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L32",
+      "id": "transcripts_theo_vision_call_2026_04_21_aligned",
+      "community": 8,
+      "norm_label": "aligned"
+    },
+    {
+      "label": "Next steps",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L36",
+      "id": "transcripts_theo_vision_call_2026_04_21_next_steps",
+      "community": 8,
+      "norm_label": "next steps"
+    },
+    {
+      "label": "Details",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L44",
+      "id": "transcripts_theo_vision_call_2026_04_21_details",
+      "community": 8,
+      "norm_label": "details"
+    },
+    {
+      "label": "\ud83d\udcd6 Transcript",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L100",
+      "id": "transcripts_theo_vision_call_2026_04_21_transcript",
+      "community": 8,
+      "norm_label": "\ud83d\udcd6 transcript"
+    },
+    {
+      "label": "Theo Vision Call \\- Transcript",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L104",
+      "id": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "community": 0,
+      "norm_label": "theo vision call \\- transcript"
+    },
+    {
+      "label": "00:00:00 {#00:00:00}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L106",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_00_00_00_00_00",
+      "community": 0,
+      "norm_label": "00:00:00 {#00:00:00}"
+    },
+    {
+      "label": "00:01:49 {#00:01:49}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L127",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_01_49_00_01_49",
+      "community": 0,
+      "norm_label": "00:01:49 {#00:01:49}"
+    },
+    {
+      "label": "00:03:22 {#00:03:22}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L137",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_03_22_00_03_22",
+      "community": 0,
+      "norm_label": "00:03:22 {#00:03:22}"
+    },
+    {
+      "label": "00:04:28 {#00:04:28}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L152",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_04_28_00_04_28",
+      "community": 0,
+      "norm_label": "00:04:28 {#00:04:28}"
+    },
+    {
+      "label": "00:05:53 {#00:05:53}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L164",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_05_53_00_05_53",
+      "community": 0,
+      "norm_label": "00:05:53 {#00:05:53}"
+    },
+    {
+      "label": "00:07:21 {#00:07:21}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L171",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_07_21_00_07_21",
+      "community": 0,
+      "norm_label": "00:07:21 {#00:07:21}"
+    },
+    {
+      "label": "00:09:01 {#00:09:01}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L188",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_09_01_00_09_01",
+      "community": 0,
+      "norm_label": "00:09:01 {#00:09:01}"
+    },
+    {
+      "label": "00:10:33 {#00:10:33}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L200",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_10_33_00_10_33",
+      "community": 0,
+      "norm_label": "00:10:33 {#00:10:33}"
+    },
+    {
+      "label": "00:11:55 {#00:11:55}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L209",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_11_55_00_11_55",
+      "community": 0,
+      "norm_label": "00:11:55 {#00:11:55}"
+    },
+    {
+      "label": "00:13:05 {#00:13:05}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L219",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_13_05_00_13_05",
+      "community": 0,
+      "norm_label": "00:13:05 {#00:13:05}"
+    },
+    {
+      "label": "00:14:46 {#00:14:46}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L227",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_14_46_00_14_46",
+      "community": 0,
+      "norm_label": "00:14:46 {#00:14:46}"
+    },
+    {
+      "label": "00:15:58 {#00:15:58}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L239",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_15_58_00_15_58",
+      "community": 0,
+      "norm_label": "00:15:58 {#00:15:58}"
+    },
+    {
+      "label": "00:17:10 {#00:17:10}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L250",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_17_10_00_17_10",
+      "community": 0,
+      "norm_label": "00:17:10 {#00:17:10}"
+    },
+    {
+      "label": "00:18:03",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L257",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_18_03",
+      "community": 0,
+      "norm_label": "00:18:03"
+    },
+    {
+      "label": "00:19:09 {#00:19:09}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L275",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_19_09_00_19_09",
+      "community": 0,
+      "norm_label": "00:19:09 {#00:19:09}"
+    },
+    {
+      "label": "00:20:10 {#00:20:10}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L289",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_20_10_00_20_10",
+      "community": 0,
+      "norm_label": "00:20:10 {#00:20:10}"
+    },
+    {
+      "label": "00:21:23",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L298",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_21_23",
+      "community": 0,
+      "norm_label": "00:21:23"
+    },
+    {
+      "label": "00:22:36 {#00:22:36}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L307",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_22_36_00_22_36",
+      "community": 0,
+      "norm_label": "00:22:36 {#00:22:36}"
+    },
+    {
+      "label": "00:23:41 {#00:23:41}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L315",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_23_41_00_23_41",
+      "community": 0,
+      "norm_label": "00:23:41 {#00:23:41}"
+    },
+    {
+      "label": "00:24:52 {#00:24:52}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L322",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_24_52_00_24_52",
+      "community": 0,
+      "norm_label": "00:24:52 {#00:24:52}"
+    },
+    {
+      "label": "00:26:18 {#00:26:18}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L332",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_26_18_00_26_18",
+      "community": 0,
+      "norm_label": "00:26:18 {#00:26:18}"
+    },
+    {
+      "label": "00:27:48",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L342",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_27_48",
+      "community": 0,
+      "norm_label": "00:27:48"
+    },
+    {
+      "label": "00:29:02 {#00:29:02}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L349",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_29_02_00_29_02",
+      "community": 0,
+      "norm_label": "00:29:02 {#00:29:02}"
+    },
+    {
+      "label": "00:30:23 {#00:30:23}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L357",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_30_23_00_30_23",
+      "community": 0,
+      "norm_label": "00:30:23 {#00:30:23}"
+    },
+    {
+      "label": "00:31:36",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L364",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_31_36",
+      "community": 0,
+      "norm_label": "00:31:36"
+    },
+    {
+      "label": "00:32:41 {#00:32:41}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L371",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_32_41_00_32_41",
+      "community": 0,
+      "norm_label": "00:32:41 {#00:32:41}"
+    },
+    {
+      "label": "00:34:09",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L378",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_34_09",
+      "community": 0,
+      "norm_label": "00:34:09"
+    },
+    {
+      "label": "00:35:27 {#00:35:27}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L385",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_35_27_00_35_27",
+      "community": 0,
+      "norm_label": "00:35:27 {#00:35:27}"
+    },
+    {
+      "label": "00:36:54 {#00:36:54}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L393",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_36_54_00_36_54",
+      "community": 0,
+      "norm_label": "00:36:54 {#00:36:54}"
+    },
+    {
+      "label": "00:38:04 {#00:38:04}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L402",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_38_04_00_38_04",
+      "community": 0,
+      "norm_label": "00:38:04 {#00:38:04}"
+    },
+    {
+      "label": "00:39:15 {#00:39:15}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L413",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_39_15_00_39_15",
+      "community": 0,
+      "norm_label": "00:39:15 {#00:39:15}"
+    },
+    {
+      "label": "00:40:23 {#00:40:23}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L428",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_40_23_00_40_23",
+      "community": 0,
+      "norm_label": "00:40:23 {#00:40:23}"
+    },
+    {
+      "label": "00:41:49 {#00:41:49}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L437",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_41_49_00_41_49",
+      "community": 0,
+      "norm_label": "00:41:49 {#00:41:49}"
+    },
+    {
+      "label": "00:42:56 {#00:42:56}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L448",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_42_56_00_42_56",
+      "community": 0,
+      "norm_label": "00:42:56 {#00:42:56}"
+    },
+    {
+      "label": "00:44:34",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L457",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_44_34",
+      "community": 0,
+      "norm_label": "00:44:34"
+    },
+    {
+      "label": "00:45:28",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L467",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_45_28",
+      "community": 0,
+      "norm_label": "00:45:28"
+    },
+    {
+      "label": "00:46:29 {#00:46:29}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L485",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_46_29_00_46_29",
+      "community": 0,
+      "norm_label": "00:46:29 {#00:46:29}"
+    },
+    {
+      "label": "00:47:39 {#00:47:39}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L497",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_47_39_00_47_39",
+      "community": 0,
+      "norm_label": "00:47:39 {#00:47:39}"
+    },
+    {
+      "label": "00:48:51 {#00:48:51}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L509",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_48_51_00_48_51",
+      "community": 0,
+      "norm_label": "00:48:51 {#00:48:51}"
+    },
+    {
+      "label": "00:50:11",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L519",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_50_11",
+      "community": 0,
+      "norm_label": "00:50:11"
+    },
+    {
+      "label": "00:51:22",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L526",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_51_22",
+      "community": 0,
+      "norm_label": "00:51:22"
+    },
+    {
+      "label": "00:52:48 {#00:52:48}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L533",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_52_48_00_52_48",
+      "community": 0,
+      "norm_label": "00:52:48 {#00:52:48}"
+    },
+    {
+      "label": "00:53:50 {#00:53:50}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L542",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_53_50_00_53_50",
+      "community": 0,
+      "norm_label": "00:53:50 {#00:53:50}"
+    },
+    {
+      "label": "00:55:25 {#00:55:25}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L554",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_55_25_00_55_25",
+      "community": 0,
+      "norm_label": "00:55:25 {#00:55:25}"
+    },
+    {
+      "label": "00:56:51 {#00:56:51}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L570",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_56_51_00_56_51",
+      "community": 0,
+      "norm_label": "00:56:51 {#00:56:51}"
+    },
+    {
+      "label": "00:58:49 {#00:58:49}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L578",
+      "id": "transcripts_theo_vision_call_2026_04_21_00_58_49_00_58_49",
+      "community": 0,
+      "norm_label": "00:58:49 {#00:58:49}"
+    },
+    {
+      "label": "01:00:06 {#01:00:06}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L592",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_00_06_01_00_06",
+      "community": 0,
+      "norm_label": "01:00:06 {#01:00:06}"
+    },
+    {
+      "label": "01:01:09 {#01:01:09}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L601",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_01_09_01_01_09",
+      "community": 0,
+      "norm_label": "01:01:09 {#01:01:09}"
+    },
+    {
+      "label": "01:02:31 {#01:02:31}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L608",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_02_31_01_02_31",
+      "community": 0,
+      "norm_label": "01:02:31 {#01:02:31}"
+    },
+    {
+      "label": "01:03:53 {#01:03:53}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L620",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_03_53_01_03_53",
+      "community": 0,
+      "norm_label": "01:03:53 {#01:03:53}"
+    },
+    {
+      "label": "01:05:17 {#01:05:17}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L631",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_05_17_01_05_17",
+      "community": 0,
+      "norm_label": "01:05:17 {#01:05:17}"
+    },
+    {
+      "label": "01:06:30 {#01:06:30}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L644",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_06_30_01_06_30",
+      "community": 0,
+      "norm_label": "01:06:30 {#01:06:30}"
+    },
+    {
+      "label": "01:07:39 {#01:07:39}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L657",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_07_39_01_07_39",
+      "community": 0,
+      "norm_label": "01:07:39 {#01:07:39}"
+    },
+    {
+      "label": "01:09:03 {#01:09:03}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L673",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_09_03_01_09_03",
+      "community": 0,
+      "norm_label": "01:09:03 {#01:09:03}"
+    },
+    {
+      "label": "01:10:10 {#01:10:10}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L689",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_10_10_01_10_10",
+      "community": 0,
+      "norm_label": "01:10:10 {#01:10:10}"
+    },
+    {
+      "label": "01:11:14 {#01:11:14}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L698",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_11_14_01_11_14",
+      "community": 0,
+      "norm_label": "01:11:14 {#01:11:14}"
+    },
+    {
+      "label": "01:12:33 {#01:12:33}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L712",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_12_33_01_12_33",
+      "community": 0,
+      "norm_label": "01:12:33 {#01:12:33}"
+    },
+    {
+      "label": "01:13:55 {#01:13:55}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L722",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_13_55_01_13_55",
+      "community": 0,
+      "norm_label": "01:13:55 {#01:13:55}"
+    },
+    {
+      "label": "01:15:19",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L729",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_15_19",
+      "community": 0,
+      "norm_label": "01:15:19"
+    },
+    {
+      "label": "01:16:49 {#01:16:49}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L743",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_16_49_01_16_49",
+      "community": 0,
+      "norm_label": "01:16:49 {#01:16:49}"
+    },
+    {
+      "label": "01:17:52 {#01:17:52}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L768",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_17_52_01_17_52",
+      "community": 0,
+      "norm_label": "01:17:52 {#01:17:52}"
+    },
+    {
+      "label": "01:18:53",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L780",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_18_53",
+      "community": 0,
+      "norm_label": "01:18:53"
+    },
+    {
+      "label": "01:19:52 {#01:19:52}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L801",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_19_52_01_19_52",
+      "community": 0,
+      "norm_label": "01:19:52 {#01:19:52}"
+    },
+    {
+      "label": "01:21:25 {#01:21:25}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L816",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_21_25_01_21_25",
+      "community": 0,
+      "norm_label": "01:21:25 {#01:21:25}"
+    },
+    {
+      "label": "01:22:55",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L829",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_22_55",
+      "community": 0,
+      "norm_label": "01:22:55"
+    },
+    {
+      "label": "01:23:58 {#01:23:58}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L836",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_23_58_01_23_58",
+      "community": 0,
+      "norm_label": "01:23:58 {#01:23:58}"
+    },
+    {
+      "label": "01:25:01 {#01:25:01}",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L848",
+      "id": "transcripts_theo_vision_call_2026_04_21_01_25_01_01_25_01",
+      "community": 0,
+      "norm_label": "01:25:01 {#01:25:01}"
+    },
+    {
+      "label": "Transcription ended after 01:25:57",
+      "file_type": "document",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L860",
+      "id": "transcripts_theo_vision_call_2026_04_21_transcription_ended_after_01_25_57",
+      "community": 0,
+      "norm_label": "transcription ended after 01:25:57"
+    },
+    {
+      "label": "howling-mune-discussion-theo-2026-05-06.md",
+      "file_type": "document",
+      "source_file": "source/transcripts/howling-mune-discussion-theo-2026-05-06.md",
+      "source_location": "L1",
+      "id": "source_transcripts_howling_mune_discussion_theo_2026_05_06_md",
+      "community": 35,
+      "norm_label": "howling-mune-discussion-theo-2026-05-06.md"
+    },
+    {
+      "label": "theo-foundational-blueprint.md",
+      "file_type": "document",
+      "source_file": "source/blueprints/theo-foundational-blueprint.md",
+      "source_location": "L1",
+      "id": "source_blueprints_theo_foundational_blueprint_md",
+      "community": 36,
+      "norm_label": "theo-foundational-blueprint.md"
+    },
+    {
+      "label": "theo-blueprint-luxury.md",
+      "file_type": "document",
+      "source_file": "source/blueprints/theo-blueprint-luxury.md",
+      "source_location": "L1",
+      "id": "source_blueprints_theo_blueprint_luxury_md",
+      "community": 37,
+      "norm_label": "theo-blueprint-luxury.md"
+    },
+    {
+      "label": "howling-mune-foundation-front-door-previous.md",
+      "file_type": "document",
+      "source_file": "source/strategic/howling-mune-foundation-front-door-previous.md",
+      "source_location": "L1",
+      "id": "source_strategic_howling_mune_foundation_front_door_previous_md",
+      "community": 38,
+      "norm_label": "howling-mune-foundation-front-door-previous.md"
+    },
+    {
+      "label": "theo-strategic-handoff.md",
+      "file_type": "document",
+      "source_file": "source/strategic/theo-strategic-handoff.md",
+      "source_location": "L1",
+      "id": "source_strategic_theo_strategic_handoff_md",
+      "community": 39,
+      "norm_label": "theo-strategic-handoff.md"
+    },
+    {
+      "label": "howling-mune-the-front-door-previous.md",
+      "file_type": "document",
+      "source_file": "source/strategic/howling-mune-the-front-door-previous.md",
+      "source_location": "L1",
+      "id": "source_strategic_howling_mune_the_front_door_previous_md",
+      "community": 40,
+      "norm_label": "howling-mune-the-front-door-previous.md"
+    },
+    {
+      "label": "theo-creator-healer-os-setup.md",
+      "file_type": "document",
+      "source_file": "source/strategic/theo-creator-healer-os-setup.md",
+      "source_location": "L1",
+      "id": "source_strategic_theo_creator_healer_os_setup_md",
+      "community": 41,
+      "norm_label": "theo-creator-healer-os-setup.md"
+    },
+    {
+      "label": "client-flow-payment-engine.md",
+      "file_type": "document",
+      "source_file": "source/strategic/client-flow-payment-engine.md",
+      "source_location": "L1",
+      "id": "source_strategic_client_flow_payment_engine_md",
+      "community": 42,
+      "norm_label": "client-flow-payment-engine.md"
+    },
+    {
+      "label": "the-creative-container.md",
+      "file_type": "document",
+      "source_file": "source/strategic/the-creative-container.md",
+      "source_location": "L1",
+      "id": "source_strategic_the_creative_container_md",
+      "community": 43,
+      "norm_label": "the-creative-container.md"
+    },
+    {
+      "label": "founder-profile.md",
+      "file_type": "document",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L1",
+      "id": "docs_founder_profile_md",
+      "community": 9,
+      "norm_label": "founder-profile.md"
+    },
+    {
+      "label": "Founder Profile",
+      "file_type": "document",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L1",
+      "id": "docs_founder_profile_founder_profile",
+      "community": 9,
+      "norm_label": "founder profile"
+    },
+    {
+      "label": "Sourced Identity",
+      "file_type": "document",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L3",
+      "id": "docs_founder_profile_sourced_identity",
+      "community": 9,
+      "norm_label": "sourced identity"
+    },
+    {
+      "label": "Sourced Authority",
+      "file_type": "document",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L7",
+      "id": "docs_founder_profile_sourced_authority",
+      "community": 9,
+      "norm_label": "sourced authority"
+    },
+    {
+      "label": "Resistance",
+      "file_type": "document",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L14",
+      "id": "docs_founder_profile_resistance",
+      "community": 9,
+      "norm_label": "resistance"
+    },
+    {
+      "label": "Vision",
+      "file_type": "document",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L18",
+      "id": "docs_founder_profile_vision",
+      "community": 9,
+      "norm_label": "vision"
+    },
+    {
+      "label": "Language",
+      "file_type": "document",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L29",
+      "id": "docs_founder_profile_language",
+      "community": 9,
+      "norm_label": "language"
+    },
+    {
+      "label": "What Must Be Protected",
+      "file_type": "document",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L43",
+      "id": "docs_founder_profile_what_must_be_protected",
+      "community": 9,
+      "norm_label": "what must be protected"
+    },
+    {
+      "label": "Assumptions",
+      "file_type": "document",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L50",
+      "id": "docs_founder_profile_assumptions",
+      "community": 9,
+      "norm_label": "assumptions"
+    },
+    {
+      "label": "decisions-log.md",
+      "file_type": "document",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L1",
+      "id": "docs_decisions_log_md",
+      "community": 17,
+      "norm_label": "decisions-log.md"
+    },
+    {
+      "label": "Decisions Log",
+      "file_type": "document",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L1",
+      "id": "docs_decisions_log_decisions_log",
+      "community": 17,
+      "norm_label": "decisions log"
+    },
+    {
+      "label": "2026-05-11 - Howling Mune Remains Umbrella Brand",
+      "file_type": "document",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L3",
+      "id": "docs_decisions_log_2026_05_11_howling_mune_remains_umbrella_brand",
+      "community": 17,
+      "norm_label": "2026-05-11 - howling mune remains umbrella brand"
+    },
+    {
+      "label": "2026-05-11 - V1 Is Client Flow Engine, Not Full OS",
+      "file_type": "document",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L7",
+      "id": "docs_decisions_log_2026_05_11_v1_is_client_flow_engine_not_full_os",
+      "community": 17,
+      "norm_label": "2026-05-11 - v1 is client flow engine, not full os"
+    },
+    {
+      "label": "2026-05-11 - One Front Door First",
+      "file_type": "document",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L11",
+      "id": "docs_decisions_log_2026_05_11_one_front_door_first",
+      "community": 17,
+      "norm_label": "2026-05-11 - one front door first"
+    },
+    {
+      "label": "2026-05-11 - Pricing Requires Human Approval",
+      "file_type": "document",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L15",
+      "id": "docs_decisions_log_2026_05_11_pricing_requires_human_approval",
+      "community": 17,
+      "norm_label": "2026-05-11 - pricing requires human approval"
+    },
+    {
+      "label": "2026-05-11 - No Overbuilding Until Data Exists",
+      "file_type": "document",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L19",
+      "id": "docs_decisions_log_2026_05_11_no_overbuilding_until_data_exists",
+      "community": 17,
+      "norm_label": "2026-05-11 - no overbuilding until data exists"
+    },
+    {
+      "label": "offer-architecture.md",
+      "file_type": "document",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L1",
+      "id": "docs_offer_architecture_md",
+      "community": 11,
+      "norm_label": "offer-architecture.md"
+    },
+    {
+      "label": "Offer Architecture",
+      "file_type": "document",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L1",
+      "id": "docs_offer_architecture_offer_architecture",
+      "community": 11,
+      "norm_label": "offer architecture"
+    },
+    {
+      "label": "Umbrella Brand",
+      "file_type": "document",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L3",
+      "id": "docs_offer_architecture_umbrella_brand",
+      "community": 11,
+      "norm_label": "umbrella brand"
+    },
+    {
+      "label": "First Build Offer",
+      "file_type": "document",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L7",
+      "id": "docs_offer_architecture_first_build_offer",
+      "community": 11,
+      "norm_label": "first build offer"
+    },
+    {
+      "label": "Theo\u2019s Client-Facing Flagship Offer",
+      "file_type": "document",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L23",
+      "id": "docs_offer_architecture_theo_s_client_facing_flagship_offer",
+      "community": 11,
+      "norm_label": "theo\u2019s client-facing flagship offer"
+    },
+    {
+      "label": "Future Offer Ladder",
+      "file_type": "document",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L33",
+      "id": "docs_offer_architecture_future_offer_ladder",
+      "community": 11,
+      "norm_label": "future offer ladder"
+    },
+    {
+      "label": "What Stays Out Of Phase 1",
+      "file_type": "document",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L43",
+      "id": "docs_offer_architecture_what_stays_out_of_phase_1",
+      "community": 11,
+      "norm_label": "what stays out of phase 1"
+    },
+    {
+      "label": "Commercial Notes",
+      "file_type": "document",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L54",
+      "id": "docs_offer_architecture_commercial_notes",
+      "community": 11,
+      "norm_label": "commercial notes"
+    },
+    {
+      "label": "launch-checklist.md",
+      "file_type": "document",
+      "source_file": "docs/launch-checklist.md",
+      "source_location": "L1",
+      "id": "docs_launch_checklist_md",
+      "community": 28,
+      "norm_label": "launch-checklist.md"
+    },
+    {
+      "label": "Launch Checklist",
+      "file_type": "document",
+      "source_file": "docs/launch-checklist.md",
+      "source_location": "L1",
+      "id": "docs_launch_checklist_launch_checklist",
+      "community": 28,
+      "norm_label": "launch checklist"
+    },
+    {
+      "label": "content-rhythm.md",
+      "file_type": "document",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L1",
+      "id": "docs_content_rhythm_md",
+      "community": 12,
+      "norm_label": "content-rhythm.md"
+    },
+    {
+      "label": "Content Rhythm",
+      "file_type": "document",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L1",
+      "id": "docs_content_rhythm_content_rhythm",
+      "community": 12,
+      "norm_label": "content rhythm"
+    },
+    {
+      "label": "Principle",
+      "file_type": "document",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L3",
+      "id": "docs_content_rhythm_principle",
+      "community": 12,
+      "norm_label": "principle"
+    },
+    {
+      "label": "Pillars",
+      "file_type": "document",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L7",
+      "id": "docs_content_rhythm_pillars",
+      "community": 12,
+      "norm_label": "pillars"
+    },
+    {
+      "label": "Cadence",
+      "file_type": "document",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L17",
+      "id": "docs_content_rhythm_cadence",
+      "community": 12,
+      "norm_label": "cadence"
+    },
+    {
+      "label": "Voice",
+      "file_type": "document",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L24",
+      "id": "docs_content_rhythm_voice",
+      "community": 12,
+      "norm_label": "voice"
+    },
+    {
+      "label": "CTA Rhythm",
+      "file_type": "document",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L28",
+      "id": "docs_content_rhythm_cta_rhythm",
+      "community": 12,
+      "norm_label": "cta rhythm"
+    },
+    {
+      "label": "What Not To Do",
+      "file_type": "document",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L32",
+      "id": "docs_content_rhythm_what_not_to_do",
+      "community": 12,
+      "norm_label": "what not to do"
+    },
+    {
+      "label": "close-flow.md",
+      "file_type": "document",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L1",
+      "id": "docs_close_flow_md",
+      "community": 13,
+      "norm_label": "close-flow.md"
+    },
+    {
+      "label": "Close Flow",
+      "file_type": "document",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L1",
+      "id": "docs_close_flow_close_flow",
+      "community": 13,
+      "norm_label": "close flow"
+    },
+    {
+      "label": "Channels",
+      "file_type": "document",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L3",
+      "id": "docs_close_flow_channels",
+      "community": 13,
+      "norm_label": "channels"
+    },
+    {
+      "label": "Sequence",
+      "file_type": "document",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L7",
+      "id": "docs_close_flow_sequence",
+      "community": 13,
+      "norm_label": "sequence"
+    },
+    {
+      "label": "Voice Note Structure",
+      "file_type": "document",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L23",
+      "id": "docs_close_flow_voice_note_structure",
+      "community": 13,
+      "norm_label": "voice note structure"
+    },
+    {
+      "label": "Fit Call Logic",
+      "file_type": "document",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L31",
+      "id": "docs_close_flow_fit_call_logic",
+      "community": 13,
+      "norm_label": "fit call logic"
+    },
+    {
+      "label": "Objection Handling",
+      "file_type": "document",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L35",
+      "id": "docs_close_flow_objection_handling",
+      "community": 13,
+      "norm_label": "objection handling"
+    },
+    {
+      "label": "Acceptance Path",
+      "file_type": "document",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L42",
+      "id": "docs_close_flow_acceptance_path",
+      "community": 13,
+      "norm_label": "acceptance path"
+    },
+    {
+      "label": "intake-routing-spec.md",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L1",
+      "id": "docs_intake_routing_spec_md",
+      "community": 1,
+      "norm_label": "intake-routing-spec.md"
+    },
+    {
+      "label": "Intake Routing Spec",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L1",
+      "id": "docs_intake_routing_spec_intake_routing_spec",
+      "community": 1,
+      "norm_label": "intake routing spec"
+    },
+    {
+      "label": "Intake Purpose",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L3",
+      "id": "docs_intake_routing_spec_intake_purpose",
+      "community": 1,
+      "norm_label": "intake purpose"
+    },
+    {
+      "label": "Required Application Fields",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L7",
+      "id": "docs_intake_routing_spec_required_application_fields",
+      "community": 1,
+      "norm_label": "required application fields"
+    },
+    {
+      "label": "Route Outcomes",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L25",
+      "id": "docs_intake_routing_spec_route_outcomes",
+      "community": 1,
+      "norm_label": "route outcomes"
+    },
+    {
+      "label": "healing_only",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L27",
+      "id": "docs_intake_routing_spec_healing_only",
+      "community": 1,
+      "norm_label": "healing_only"
+    },
+    {
+      "label": "photography_only",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L31",
+      "id": "docs_intake_routing_spec_photography_only",
+      "community": 1,
+      "norm_label": "photography_only"
+    },
+    {
+      "label": "hybrid_identity_reset",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L35",
+      "id": "docs_intake_routing_spec_hybrid_identity_reset",
+      "community": 1,
+      "norm_label": "hybrid_identity_reset"
+    },
+    {
+      "label": "group_or_workshop",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L39",
+      "id": "docs_intake_routing_spec_group_or_workshop",
+      "community": 1,
+      "norm_label": "group_or_workshop"
+    },
+    {
+      "label": "partner_or_retreat",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L43",
+      "id": "docs_intake_routing_spec_partner_or_retreat",
+      "community": 1,
+      "norm_label": "partner_or_retreat"
+    },
+    {
+      "label": "nurture",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L47",
+      "id": "docs_intake_routing_spec_nurture",
+      "community": 1,
+      "norm_label": "nurture"
+    },
+    {
+      "label": "manual_review",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L51",
+      "id": "docs_intake_routing_spec_manual_review",
+      "community": 1,
+      "norm_label": "manual_review"
+    },
+    {
+      "label": "Human Review Required",
+      "file_type": "document",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L55",
+      "id": "docs_intake_routing_spec_human_review_required",
+      "community": 1,
+      "norm_label": "human review required"
+    },
+    {
+      "label": "implementation-plan.md",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L1",
+      "id": "docs_implementation_plan_md",
+      "community": 14,
+      "norm_label": "implementation-plan.md"
+    },
+    {
+      "label": "Implementation Plan",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L1",
+      "id": "docs_implementation_plan_implementation_plan",
+      "community": 14,
+      "norm_label": "implementation plan"
+    },
+    {
+      "label": "Phase 0 - Project Setup",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L3",
+      "id": "docs_implementation_plan_phase_0_project_setup",
+      "community": 14,
+      "norm_label": "phase 0 - project setup"
+    },
+    {
+      "label": "Phase 1 - Clarity / Source Consolidation",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L10",
+      "id": "docs_implementation_plan_phase_1_clarity_source_consolidation",
+      "community": 14,
+      "norm_label": "phase 1 - clarity / source consolidation"
+    },
+    {
+      "label": "Phase 2 - Front Door",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L17",
+      "id": "docs_implementation_plan_phase_2_front_door",
+      "community": 14,
+      "norm_label": "phase 2 - front door"
+    },
+    {
+      "label": "Phase 3 - Intake + CRM",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L24",
+      "id": "docs_implementation_plan_phase_3_intake_crm",
+      "community": 14,
+      "norm_label": "phase 3 - intake + crm"
+    },
+    {
+      "label": "Phase 4 - Close Flow + Stripe",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L32",
+      "id": "docs_implementation_plan_phase_4_close_flow_stripe",
+      "community": 14,
+      "norm_label": "phase 4 - close flow + stripe"
+    },
+    {
+      "label": "Phase 5 - Launch + Data Review",
+      "file_type": "document",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L39",
+      "id": "docs_implementation_plan_phase_5_launch_data_review",
+      "community": 14,
+      "norm_label": "phase 5 - launch + data review"
+    },
+    {
+      "label": "front-door-spec.md",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L1",
+      "id": "docs_front_door_spec_md",
+      "community": 2,
+      "norm_label": "front-door-spec.md"
+    },
+    {
+      "label": "Front Door Spec",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L1",
+      "id": "docs_front_door_spec_front_door_spec",
+      "community": 2,
+      "norm_label": "front door spec"
+    },
+    {
+      "label": "Purpose",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L5",
+      "id": "docs_front_door_spec_purpose",
+      "community": 2,
+      "norm_label": "purpose"
+    },
+    {
+      "label": "Required Sections",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L9",
+      "id": "docs_front_door_spec_required_sections",
+      "community": 2,
+      "norm_label": "required sections"
+    },
+    {
+      "label": "Brand / Hero Signal",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L11",
+      "id": "docs_front_door_spec_brand_hero_signal",
+      "community": 2,
+      "norm_label": "brand / hero signal"
+    },
+    {
+      "label": "What This Is",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L15",
+      "id": "docs_front_door_spec_what_this_is",
+      "community": 2,
+      "norm_label": "what this is"
+    },
+    {
+      "label": "Who It Is For",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L19",
+      "id": "docs_front_door_spec_who_it_is_for",
+      "community": 2,
+      "norm_label": "who it is for"
+    },
+    {
+      "label": "What Changes",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L27",
+      "id": "docs_front_door_spec_what_changes",
+      "community": 2,
+      "norm_label": "what changes"
+    },
+    {
+      "label": "Offer / First Room",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L31",
+      "id": "docs_front_door_spec_offer_first_room",
+      "community": 2,
+      "norm_label": "offer / first room"
+    },
+    {
+      "label": "Fit / Not Fit",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L35",
+      "id": "docs_front_door_spec_fit_not_fit",
+      "community": 2,
+      "norm_label": "fit / not fit"
+    },
+    {
+      "label": "Application CTA",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L41",
+      "id": "docs_front_door_spec_application_cta",
+      "community": 2,
+      "norm_label": "application cta"
+    },
+    {
+      "label": "Follow-Up Path",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L45",
+      "id": "docs_front_door_spec_follow_up_path",
+      "community": 2,
+      "norm_label": "follow-up path"
+    },
+    {
+      "label": "Assumptions",
+      "file_type": "document",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L49",
+      "id": "docs_front_door_spec_assumptions",
+      "community": 2,
+      "norm_label": "assumptions"
+    },
+    {
+      "label": "icp.md",
+      "file_type": "document",
+      "source_file": "docs/icp.md",
+      "source_location": "L1",
+      "id": "docs_icp_md",
+      "community": 6,
+      "norm_label": "icp.md"
+    },
+    {
+      "label": "ICP",
+      "file_type": "document",
+      "source_file": "docs/icp.md",
+      "source_location": "L1",
+      "id": "docs_icp_icp",
+      "community": 6,
+      "norm_label": "icp"
+    },
+    {
+      "label": "Primary Phase 1 ICP",
+      "file_type": "document",
+      "source_file": "docs/icp.md",
+      "source_location": "L3",
+      "id": "docs_icp_primary_phase_1_icp",
+      "community": 6,
+      "norm_label": "primary phase 1 icp"
+    },
+    {
+      "label": "Working Wedge Options",
+      "file_type": "document",
+      "source_file": "docs/icp.md",
+      "source_location": "L13",
+      "id": "docs_icp_working_wedge_options",
+      "community": 6,
+      "norm_label": "working wedge options"
+    },
+    {
+      "label": "Wedge A - Bali Model / Creative",
+      "file_type": "document",
+      "source_file": "docs/icp.md",
+      "source_location": "L15",
+      "id": "docs_icp_wedge_a_bali_model_creative",
+      "community": 6,
+      "norm_label": "wedge a - bali model / creative"
+    },
+    {
+      "label": "Wedge B - Collective / Retreat / Corporate Buyer",
+      "file_type": "document",
+      "source_file": "docs/icp.md",
+      "source_location": "L19",
+      "id": "docs_icp_wedge_b_collective_retreat_corporate_buyer",
+      "community": 6,
+      "norm_label": "wedge b - collective / retreat / corporate buyer"
+    },
+    {
+      "label": "Wedge C - Self-Relationship / Healing Client",
+      "file_type": "document",
+      "source_file": "docs/icp.md",
+      "source_location": "L23",
+      "id": "docs_icp_wedge_c_self_relationship_healing_client",
+      "community": 6,
+      "norm_label": "wedge c - self-relationship / healing client"
+    },
+    {
+      "label": "Secondary Future ICPs",
+      "file_type": "document",
+      "source_file": "docs/icp.md",
+      "source_location": "L27",
+      "id": "docs_icp_secondary_future_icps",
+      "community": 6,
+      "norm_label": "secondary future icps"
+    },
+    {
+      "label": "Anti-ICP",
+      "file_type": "document",
+      "source_file": "docs/icp.md",
+      "source_location": "L36",
+      "id": "docs_icp_anti_icp",
+      "community": 6,
+      "norm_label": "anti-icp"
+    },
+    {
+      "label": "Data Still Needs Validation",
+      "file_type": "document",
+      "source_file": "docs/icp.md",
+      "source_location": "L44",
+      "id": "docs_icp_data_still_needs_validation",
+      "community": 6,
+      "norm_label": "data still needs validation"
+    },
+    {
+      "label": "source-index.md",
+      "file_type": "document",
+      "source_file": "docs/source-index.md",
+      "source_location": "L1",
+      "id": "docs_source_index_md",
+      "community": 23,
+      "norm_label": "source-index.md"
+    },
+    {
+      "label": "Source Index",
+      "file_type": "document",
+      "source_file": "docs/source-index.md",
+      "source_location": "L1",
+      "id": "docs_source_index_source_index",
+      "community": 23,
+      "norm_label": "source index"
+    },
+    {
+      "label": "Contradictions / Review Flags",
+      "file_type": "document",
+      "source_file": "docs/source-index.md",
+      "source_location": "L19",
+      "id": "docs_source_index_contradictions_review_flags",
+      "community": 23,
+      "norm_label": "contradictions / review flags"
+    },
+    {
+      "label": "doctrine-map.md",
+      "file_type": "document",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L1",
+      "id": "docs_doctrine_map_md",
+      "community": 10,
+      "norm_label": "doctrine-map.md"
+    },
+    {
+      "label": "Doctrine Map",
+      "file_type": "document",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L1",
+      "id": "docs_doctrine_map_doctrine_map",
+      "community": 10,
+      "norm_label": "doctrine map"
+    },
+    {
+      "label": "Core Doctrine",
+      "file_type": "document",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L3",
+      "id": "docs_doctrine_map_core_doctrine",
+      "community": 10,
+      "norm_label": "core doctrine"
+    },
+    {
+      "label": "Self-Relationship",
+      "file_type": "document",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L7",
+      "id": "docs_doctrine_map_self_relationship",
+      "community": 10,
+      "norm_label": "self-relationship"
+    },
+    {
+      "label": "Three Layers",
+      "file_type": "document",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L11",
+      "id": "docs_doctrine_map_three_layers",
+      "community": 10,
+      "norm_label": "three layers"
+    },
+    {
+      "label": "Silence And Contemplation",
+      "file_type": "document",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L21",
+      "id": "docs_doctrine_map_silence_and_contemplation",
+      "community": 10,
+      "norm_label": "silence and contemplation"
+    },
+    {
+      "label": "Structure Protects Essence",
+      "file_type": "document",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L25",
+      "id": "docs_doctrine_map_structure_protects_essence",
+      "community": 10,
+      "norm_label": "structure protects essence"
+    },
+    {
+      "label": "What Healing Is And Is Not",
+      "file_type": "document",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L29",
+      "id": "docs_doctrine_map_what_healing_is_and_is_not",
+      "community": 10,
+      "norm_label": "what healing is and is not"
+    },
+    {
+      "label": "Assumptions",
+      "file_type": "document",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L43",
+      "id": "docs_doctrine_map_assumptions",
+      "community": 10,
+      "norm_label": "assumptions"
+    },
+    {
+      "label": "system-map.md",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L1",
+      "id": "docs_system_map_md",
+      "community": 5,
+      "norm_label": "system-map.md"
+    },
+    {
+      "label": "System Map",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L1",
+      "id": "docs_system_map_system_map",
+      "community": 5,
+      "norm_label": "system map"
+    },
+    {
+      "label": "code:text (Discovery)",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L3",
+      "id": "docs_system_map_codeblock_1",
+      "community": 5,
+      "norm_label": "code:text (discovery)"
+    },
+    {
+      "label": "Discovery",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L15",
+      "id": "docs_system_map_discovery",
+      "community": 5,
+      "norm_label": "discovery"
+    },
+    {
+      "label": "Front Door",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L19",
+      "id": "docs_system_map_front_door",
+      "community": 5,
+      "norm_label": "front door"
+    },
+    {
+      "label": "Intake",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L23",
+      "id": "docs_system_map_intake",
+      "community": 5,
+      "norm_label": "intake"
+    },
+    {
+      "label": "Qualification",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L27",
+      "id": "docs_system_map_qualification",
+      "community": 5,
+      "norm_label": "qualification"
+    },
+    {
+      "label": "CRM",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L31",
+      "id": "docs_system_map_crm",
+      "community": 5,
+      "norm_label": "crm"
+    },
+    {
+      "label": "Close",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L35",
+      "id": "docs_system_map_close",
+      "community": 5,
+      "norm_label": "close"
+    },
+    {
+      "label": "Paid Client",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L39",
+      "id": "docs_system_map_paid_client",
+      "community": 5,
+      "norm_label": "paid client"
+    },
+    {
+      "label": "Follow-up",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L43",
+      "id": "docs_system_map_follow_up",
+      "community": 5,
+      "norm_label": "follow-up"
+    },
+    {
+      "label": "Data Review",
+      "file_type": "document",
+      "source_file": "docs/system-map.md",
+      "source_location": "L47",
+      "id": "docs_system_map_data_review",
+      "community": 5,
+      "norm_label": "data review"
+    },
+    {
+      "label": "handoff.md",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L1",
+      "id": "docs_handoff_md",
+      "community": 7,
+      "norm_label": "handoff.md"
+    },
+    {
+      "label": "Theo / Howling Mune Handoff",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L1",
+      "id": "docs_handoff_theo_howling_mune_handoff",
+      "community": 7,
+      "norm_label": "theo / howling mune handoff"
+    },
+    {
+      "label": "Who Theo Is",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L3",
+      "id": "docs_handoff_who_theo_is",
+      "community": 7,
+      "norm_label": "who theo is"
+    },
+    {
+      "label": "What Is Real Already",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L9",
+      "id": "docs_handoff_what_is_real_already",
+      "community": 7,
+      "norm_label": "what is real already"
+    },
+    {
+      "label": "Business Problem",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L18",
+      "id": "docs_handoff_business_problem",
+      "community": 7,
+      "norm_label": "business problem"
+    },
+    {
+      "label": "Phase 1 Recommendation",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L22",
+      "id": "docs_handoff_phase_1_recommendation",
+      "community": 7,
+      "norm_label": "phase 1 recommendation"
+    },
+    {
+      "label": "Offer Architecture",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L34",
+      "id": "docs_handoff_offer_architecture",
+      "community": 7,
+      "norm_label": "offer architecture"
+    },
+    {
+      "label": "What Should Not Be Built Yet",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L38",
+      "id": "docs_handoff_what_should_not_be_built_yet",
+      "community": 7,
+      "norm_label": "what should not be built yet"
+    },
+    {
+      "label": "Client Clarity OS Connection",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L48",
+      "id": "docs_handoff_client_clarity_os_connection",
+      "community": 7,
+      "norm_label": "client clarity os connection"
+    },
+    {
+      "label": "code:text (Client record -> Intake/source material -> Blueprint extract)",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L52",
+      "id": "docs_handoff_codeblock_1",
+      "community": 7,
+      "norm_label": "code:text (client record -> intake/source material -> blueprint extract)"
+    },
+    {
+      "label": "crm-spec.md",
+      "file_type": "document",
+      "source_file": "docs/crm-spec.md",
+      "source_location": "L1",
+      "id": "docs_crm_spec_md",
+      "community": 22,
+      "norm_label": "crm-spec.md"
+    },
+    {
+      "label": "CRM Spec",
+      "file_type": "document",
+      "source_file": "docs/crm-spec.md",
+      "source_location": "L1",
+      "id": "docs_crm_spec_crm_spec",
+      "community": 22,
+      "norm_label": "crm spec"
+    },
+    {
+      "label": "Airtable Lead Fields",
+      "file_type": "document",
+      "source_file": "docs/crm-spec.md",
+      "source_location": "L3",
+      "id": "docs_crm_spec_airtable_lead_fields",
+      "community": 22,
+      "norm_label": "airtable lead fields"
+    },
+    {
+      "label": "Status Rule",
+      "file_type": "document",
+      "source_file": "docs/crm-spec.md",
+      "source_location": "L22",
+      "id": "docs_crm_spec_status_rule",
+      "community": 22,
+      "norm_label": "status rule"
+    },
+    {
+      "label": "blueprint-extraction-notes.md",
+      "file_type": "document",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L1",
+      "id": "docs_blueprint_extraction_notes_md",
+      "community": 19,
+      "norm_label": "blueprint-extraction-notes.md"
+    },
+    {
+      "label": "Blueprint Extraction Notes",
+      "file_type": "document",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L1",
+      "id": "docs_blueprint_extraction_notes_blueprint_extraction_notes",
+      "community": 19,
+      "norm_label": "blueprint extraction notes"
+    },
+    {
+      "label": "Extraction Boundary",
+      "file_type": "document",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L18",
+      "id": "docs_blueprint_extraction_notes_extraction_boundary",
+      "community": 19,
+      "norm_label": "extraction boundary"
+    },
+    {
+      "label": "Key Findings",
+      "file_type": "document",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L22",
+      "id": "docs_blueprint_extraction_notes_key_findings",
+      "community": 19,
+      "norm_label": "key findings"
+    },
+    {
+      "label": "Contradictions",
+      "file_type": "document",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L30",
+      "id": "docs_blueprint_extraction_notes_contradictions",
+      "community": 19,
+      "norm_label": "contradictions"
+    },
+    {
+      "label": "Decisions Required Before Live Coding",
+      "file_type": "document",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L37",
+      "id": "docs_blueprint_extraction_notes_decisions_required_before_live_coding",
+      "community": 19,
+      "norm_label": "decisions required before live coding"
+    },
+    {
+      "label": "close-script-generator.md",
+      "file_type": "document",
+      "source_file": "prompts/close-script-generator.md",
+      "source_location": "L1",
+      "id": "prompts_close_script_generator_md",
+      "community": 29,
+      "norm_label": "close-script-generator.md"
+    },
+    {
+      "label": "Close Script Generator Prompt",
+      "file_type": "document",
+      "source_file": "prompts/close-script-generator.md",
+      "source_location": "L1",
+      "id": "prompts_close_script_generator_close_script_generator_prompt",
+      "community": 29,
+      "norm_label": "close script generator prompt"
+    },
+    {
+      "label": "lead-routing.md",
+      "file_type": "document",
+      "source_file": "prompts/lead-routing.md",
+      "source_location": "L1",
+      "id": "prompts_lead_routing_md",
+      "community": 30,
+      "norm_label": "lead-routing.md"
+    },
+    {
+      "label": "Lead Routing Prompt",
+      "file_type": "document",
+      "source_file": "prompts/lead-routing.md",
+      "source_location": "L1",
+      "id": "prompts_lead_routing_lead_routing_prompt",
+      "community": 30,
+      "norm_label": "lead routing prompt"
+    },
+    {
+      "label": "intake-form-generator.md",
+      "file_type": "document",
+      "source_file": "prompts/intake-form-generator.md",
+      "source_location": "L1",
+      "id": "prompts_intake_form_generator_md",
+      "community": 31,
+      "norm_label": "intake-form-generator.md"
+    },
+    {
+      "label": "Intake Form Generator Prompt",
+      "file_type": "document",
+      "source_file": "prompts/intake-form-generator.md",
+      "source_location": "L1",
+      "id": "prompts_intake_form_generator_intake_form_generator_prompt",
+      "community": 31,
+      "norm_label": "intake form generator prompt"
+    },
+    {
+      "label": "landing-page-copy.md",
+      "file_type": "document",
+      "source_file": "prompts/landing-page-copy.md",
+      "source_location": "L1",
+      "id": "prompts_landing_page_copy_md",
+      "community": 32,
+      "norm_label": "landing-page-copy.md"
+    },
+    {
+      "label": "Landing Page Copy Prompt",
+      "file_type": "document",
+      "source_file": "prompts/landing-page-copy.md",
+      "source_location": "L1",
+      "id": "prompts_landing_page_copy_landing_page_copy_prompt",
+      "community": 32,
+      "norm_label": "landing page copy prompt"
+    },
+    {
+      "label": "blueprint-extraction.md",
+      "file_type": "document",
+      "source_file": "prompts/blueprint-extraction.md",
+      "source_location": "L1",
+      "id": "prompts_blueprint_extraction_md",
+      "community": 33,
+      "norm_label": "blueprint-extraction.md"
+    },
+    {
+      "label": "Blueprint Extraction Prompt",
+      "file_type": "document",
+      "source_file": "prompts/blueprint-extraction.md",
+      "source_location": "L1",
+      "id": "prompts_blueprint_extraction_blueprint_extraction_prompt",
+      "community": 33,
+      "norm_label": "blueprint extraction prompt"
+    },
+    {
+      "label": "content-rhythm-generator.md",
+      "file_type": "document",
+      "source_file": "prompts/content-rhythm-generator.md",
+      "source_location": "L1",
+      "id": "prompts_content_rhythm_generator_md",
+      "community": 34,
+      "norm_label": "content-rhythm-generator.md"
+    },
+    {
+      "label": "Content Rhythm Generator Prompt",
+      "file_type": "document",
+      "source_file": "prompts/content-rhythm-generator.md",
+      "source_location": "L1",
+      "id": "prompts_content_rhythm_generator_content_rhythm_generator_prompt",
+      "community": 34,
+      "norm_label": "content rhythm generator prompt"
+    },
+    {
+      "label": "page-map.md",
+      "file_type": "document",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L1",
+      "id": "automations_notion_page_map_md",
+      "community": 20,
+      "norm_label": "page-map.md"
+    },
+    {
+      "label": "Notion Page Map",
+      "file_type": "document",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L1",
+      "id": "notion_page_map_notion_page_map",
+      "community": 20,
+      "norm_label": "notion page map"
+    },
+    {
+      "label": "Theo Dossier Page",
+      "file_type": "document",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L5",
+      "id": "notion_page_map_theo_dossier_page",
+      "community": 20,
+      "norm_label": "theo dossier page"
+    },
+    {
+      "label": "Source Page",
+      "file_type": "document",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L21",
+      "id": "notion_page_map_source_page",
+      "community": 20,
+      "norm_label": "source page"
+    },
+    {
+      "label": "Blueprint Page",
+      "file_type": "document",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L34",
+      "id": "notion_page_map_blueprint_page",
+      "community": 20,
+      "norm_label": "blueprint page"
+    },
+    {
+      "label": "Public / Client-Facing Page",
+      "file_type": "document",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L49",
+      "id": "notion_page_map_public_client_facing_page",
+      "community": 20,
+      "norm_label": "public / client-facing page"
+    },
+    {
+      "label": "field-map.md",
+      "file_type": "document",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L1",
+      "id": "automations_airtable_field_map_md",
+      "community": 15,
+      "norm_label": "field-map.md"
+    },
+    {
+      "label": "Airtable Field Map",
+      "file_type": "document",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L1",
+      "id": "airtable_field_map_airtable_field_map",
+      "community": 15,
+      "norm_label": "airtable field map"
+    },
+    {
+      "label": "Client Clarity OS - Clients",
+      "file_type": "document",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L5",
+      "id": "airtable_field_map_client_clarity_os_clients",
+      "community": 15,
+      "norm_label": "client clarity os - clients"
+    },
+    {
+      "label": "Client Clarity OS - Intake Responses",
+      "file_type": "document",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L17",
+      "id": "airtable_field_map_client_clarity_os_intake_responses",
+      "community": 15,
+      "norm_label": "client clarity os - intake responses"
+    },
+    {
+      "label": "Client Clarity OS - Blueprint Outputs",
+      "file_type": "document",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L37",
+      "id": "airtable_field_map_client_clarity_os_blueprint_outputs",
+      "community": 15,
+      "norm_label": "client clarity os - blueprint outputs"
+    },
+    {
+      "label": "Client Clarity OS - Assets & Data Room",
+      "file_type": "document",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L48",
+      "id": "airtable_field_map_client_clarity_os_assets_data_room",
+      "community": 15,
+      "norm_label": "client clarity os - assets & data room"
+    },
+    {
+      "label": "Client Clarity OS - Build Tasks",
+      "file_type": "document",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L59",
+      "id": "airtable_field_map_client_clarity_os_build_tasks",
+      "community": 15,
+      "norm_label": "client clarity os - build tasks"
+    },
+    {
+      "label": "Write Rule",
+      "file_type": "document",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L71",
+      "id": "airtable_field_map_write_rule",
+      "community": 15,
+      "norm_label": "write rule"
+    },
+    {
+      "label": "workflow-spec.md",
+      "file_type": "document",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L1",
+      "id": "automations_n8n_workflow_spec_md",
+      "community": 18,
+      "norm_label": "workflow-spec.md"
+    },
+    {
+      "label": "n8n Workflow Spec",
+      "file_type": "document",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L1",
+      "id": "n8n_workflow_spec_n8n_workflow_spec",
+      "community": 18,
+      "norm_label": "n8n workflow spec"
+    },
+    {
+      "label": "Workflow A: Intake Submission -> Airtable Lead",
+      "file_type": "document",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L3",
+      "id": "n8n_workflow_spec_workflow_a_intake_submission_airtable_lead",
+      "community": 18,
+      "norm_label": "workflow a: intake submission -> airtable lead"
+    },
+    {
+      "label": "Workflow B: Airtable Lead -> Route + Notification",
+      "file_type": "document",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L15",
+      "id": "n8n_workflow_spec_workflow_b_airtable_lead_route_notification",
+      "community": 18,
+      "norm_label": "workflow b: airtable lead -> route + notification"
+    },
+    {
+      "label": "Workflow C: Payment Received -> Client Status / Build Task Activation",
+      "file_type": "document",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L27",
+      "id": "n8n_workflow_spec_workflow_c_payment_received_client_status_build_task_activation",
+      "community": 18,
+      "norm_label": "workflow c: payment received -> client status / build task activation"
+    },
+    {
+      "label": "Workflow D: Blueprint Data -> Dossier Generation",
+      "file_type": "document",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L39",
+      "id": "n8n_workflow_spec_workflow_d_blueprint_data_dossier_generation",
+      "community": 18,
+      "norm_label": "workflow d: blueprint data -> dossier generation"
+    },
+    {
+      "label": "Production Rule",
+      "file_type": "document",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L50",
+      "id": "n8n_workflow_spec_production_rule",
+      "community": 18,
+      "norm_label": "production rule"
+    },
+    {
+      "label": "milestone-flow.md",
+      "file_type": "document",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L1",
+      "id": "automations_stripe_milestone_flow_md",
+      "community": 16,
+      "norm_label": "milestone-flow.md"
+    },
+    {
+      "label": "Stripe Milestone Flow",
+      "file_type": "document",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L1",
+      "id": "stripe_milestone_flow_stripe_milestone_flow",
+      "community": 16,
+      "norm_label": "stripe milestone flow"
+    },
+    {
+      "label": "Milestone 01",
+      "file_type": "document",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L3",
+      "id": "stripe_milestone_flow_milestone_01",
+      "community": 16,
+      "norm_label": "milestone 01"
+    },
+    {
+      "label": "Milestone 02",
+      "file_type": "document",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L20",
+      "id": "stripe_milestone_flow_milestone_02",
+      "community": 16,
+      "norm_label": "milestone 02"
+    },
+    {
+      "label": "Milestone 03",
+      "file_type": "document",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L26",
+      "id": "stripe_milestone_flow_milestone_03",
+      "community": 16,
+      "norm_label": "milestone 03"
+    },
+    {
+      "label": "Metadata Fields",
+      "file_type": "document",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L32",
+      "id": "stripe_milestone_flow_metadata_fields",
+      "community": 16,
+      "norm_label": "metadata fields"
+    },
+    {
+      "label": "Webhook Behavior",
+      "file_type": "document",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L41",
+      "id": "stripe_milestone_flow_webhook_behavior",
+      "community": 16,
+      "norm_label": "webhook behavior"
+    },
+    {
+      "label": "Rule",
+      "file_type": "document",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L52",
+      "id": "stripe_milestone_flow_rule",
+      "community": 16,
+      "norm_label": "rule"
+    },
+    {
+      "label": "SKILL.md",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L1",
+      "id": "skills_theo_client_flow_engine_skill_md",
+      "community": 3,
+      "norm_label": "skill.md"
+    },
+    {
+      "label": "Theo Client Flow Engine Skill",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L1",
+      "id": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "community": 3,
+      "norm_label": "theo client flow engine skill"
+    },
+    {
+      "label": "Purpose",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L3",
+      "id": "theo_client_flow_engine_skill_purpose",
+      "community": 3,
+      "norm_label": "purpose"
+    },
+    {
+      "label": "Inputs Required",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L7",
+      "id": "theo_client_flow_engine_skill_inputs_required",
+      "community": 3,
+      "norm_label": "inputs required"
+    },
+    {
+      "label": "Source Materials",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L17",
+      "id": "theo_client_flow_engine_skill_source_materials",
+      "community": 3,
+      "norm_label": "source materials"
+    },
+    {
+      "label": "Outputs",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L29",
+      "id": "theo_client_flow_engine_skill_outputs",
+      "community": 3,
+      "norm_label": "outputs"
+    },
+    {
+      "label": "Rules",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L40",
+      "id": "theo_client_flow_engine_skill_rules",
+      "community": 3,
+      "norm_label": "rules"
+    },
+    {
+      "label": "First-Build Logic",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L51",
+      "id": "theo_client_flow_engine_skill_first_build_logic",
+      "community": 3,
+      "norm_label": "first-build logic"
+    },
+    {
+      "label": "code:text (front door -> intake -> routing -> CRM -> close -> payment -)",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L55",
+      "id": "theo_client_flow_engine_skill_codeblock_1",
+      "community": 3,
+      "norm_label": "code:text (front door -> intake -> routing -> crm -> close -> payment -)"
+    },
+    {
+      "label": "Routing Logic",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L61",
+      "id": "theo_client_flow_engine_skill_routing_logic",
+      "community": 3,
+      "norm_label": "routing logic"
+    },
+    {
+      "label": "Human-Review Gates",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L75",
+      "id": "theo_client_flow_engine_skill_human_review_gates",
+      "community": 3,
+      "norm_label": "human-review gates"
+    },
+    {
+      "label": "Client Clarity OS Connection",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L85",
+      "id": "theo_client_flow_engine_skill_client_clarity_os_connection",
+      "community": 3,
+      "norm_label": "client clarity os connection"
+    },
+    {
+      "label": "code:text (Client record in Airtable)",
+      "file_type": "document",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L89",
+      "id": "theo_client_flow_engine_skill_codeblock_2",
+      "community": 3,
+      "norm_label": "code:text (client record in airtable)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "target": "theo_howling_mune_client_flow_engine_readme_what_theo_v1_is",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "target": "theo_howling_mune_client_flow_engine_readme_what_it_is_not",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "target": "theo_howling_mune_client_flow_engine_readme_strategic_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "target": "theo_howling_mune_client_flow_engine_readme_implementation_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "target": "theo_howling_mune_client_flow_engine_readme_system_loop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "target": "theo_howling_mune_client_flow_engine_readme_required_environment_variables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "target": "theo_howling_mune_client_flow_engine_readme_manual_test_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "target": "theo_howling_mune_client_flow_engine_readme_build_order",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "theo_howling_mune_client_flow_engine_readme_theo_howling_mune_client_flow_engine_v1",
+      "target": "theo_howling_mune_client_flow_engine_readme_human_review_gates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "theo_howling_mune_client_flow_engine_readme_system_loop",
+      "target": "theo_howling_mune_client_flow_engine_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "agents_md",
+      "target": "theo_howling_mune_client_flow_engine_agents_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/implementation-status.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "clients_implementation_status_md",
+      "target": "clients_implementation_status_implementation_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/implementation-status.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "clients_implementation_status_implementation_status",
+      "target": "clients_implementation_status_current_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/implementation-status.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "clients_implementation_status_implementation_status",
+      "target": "clients_implementation_status_operationally_defined",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "clients/implementation-status.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "clients_implementation_status_implementation_status",
+      "target": "clients_implementation_status_needs_live_wiring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_readme_md",
+      "target": "app_readme_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/intake-form/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_intake_form_readme_md",
+      "target": "intake_form_readme_intake_form",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/landing-page/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_landing_page_readme_md",
+      "target": "landing_page_readme_landing_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "source_transcripts_theo_vision_call_2026_04_21_md",
+      "target": "transcripts_theo_vision_call_2026_04_21_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "source_transcripts_theo_vision_call_2026_04_21_md",
+      "target": "transcripts_theo_vision_call_2026_04_21_transcript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_notes",
+      "target": "transcripts_theo_vision_call_2026_04_21_theo_vision_call",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_notes",
+      "target": "transcripts_theo_vision_call_2026_04_21_aligned",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call",
+      "target": "transcripts_theo_vision_call_2026_04_21_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call",
+      "target": "transcripts_theo_vision_call_2026_04_21_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_aligned",
+      "target": "transcripts_theo_vision_call_2026_04_21_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_aligned",
+      "target": "transcripts_theo_vision_call_2026_04_21_details",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_00_00_00_00_00",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_01_49_00_01_49",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_03_22_00_03_22",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_04_28_00_04_28",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_05_53_00_05_53",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_07_21_00_07_21",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_09_01_00_09_01",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L200",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_10_33_00_10_33",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L209",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_11_55_00_11_55",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_13_05_00_13_05",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_14_46_00_14_46",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_15_58_00_15_58",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L250",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_17_10_00_17_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L257",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_18_03",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L275",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_19_09_00_19_09",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L289",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_20_10_00_20_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L298",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_21_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L307",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_22_36_00_22_36",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L315",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_23_41_00_23_41",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L322",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_24_52_00_24_52",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L332",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_26_18_00_26_18",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L342",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_27_48",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L349",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_29_02_00_29_02",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L357",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_30_23_00_30_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L364",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_31_36",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L371",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_32_41_00_32_41",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L378",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_34_09",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L385",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_35_27_00_35_27",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L393",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_36_54_00_36_54",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L402",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_38_04_00_38_04",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L413",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_39_15_00_39_15",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L428",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_40_23_00_40_23",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L437",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_41_49_00_41_49",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L448",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_42_56_00_42_56",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L457",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_44_34",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L467",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_45_28",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L485",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_46_29_00_46_29",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L497",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_47_39_00_47_39",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L509",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_48_51_00_48_51",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L519",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_50_11",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L526",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_51_22",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L533",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_52_48_00_52_48",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L542",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_53_50_00_53_50",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L554",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_55_25_00_55_25",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L570",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_56_51_00_56_51",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L578",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_00_58_49_00_58_49",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L592",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_00_06_01_00_06",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L601",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_01_09_01_01_09",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L608",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_02_31_01_02_31",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L620",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_03_53_01_03_53",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L631",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_05_17_01_05_17",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L644",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_06_30_01_06_30",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L657",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_07_39_01_07_39",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L673",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_09_03_01_09_03",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L689",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_10_10_01_10_10",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L698",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_11_14_01_11_14",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L712",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_12_33_01_12_33",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L722",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_13_55_01_13_55",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L729",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_15_19",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L743",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_16_49_01_16_49",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L768",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_17_52_01_17_52",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L780",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_18_53",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L801",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_19_52_01_19_52",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L816",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_21_25_01_21_25",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L829",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_22_55",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L836",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_23_58_01_23_58",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L848",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_01_25_01_01_25_01",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "source/transcripts/theo-vision-call-2026-04-21.md",
+      "source_location": "L860",
+      "weight": 1.0,
+      "source": "transcripts_theo_vision_call_2026_04_21_theo_vision_call_transcript",
+      "target": "transcripts_theo_vision_call_2026_04_21_transcription_ended_after_01_25_57",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_founder_profile_md",
+      "target": "docs_founder_profile_founder_profile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_founder_profile_founder_profile",
+      "target": "docs_founder_profile_sourced_identity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_founder_profile_founder_profile",
+      "target": "docs_founder_profile_sourced_authority",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "docs_founder_profile_founder_profile",
+      "target": "docs_founder_profile_resistance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "docs_founder_profile_founder_profile",
+      "target": "docs_founder_profile_vision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_founder_profile_founder_profile",
+      "target": "docs_founder_profile_language",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_founder_profile_founder_profile",
+      "target": "docs_founder_profile_what_must_be_protected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/founder-profile.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_founder_profile_founder_profile",
+      "target": "docs_founder_profile_assumptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_decisions_log_md",
+      "target": "docs_decisions_log_decisions_log",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_decisions_log_decisions_log",
+      "target": "docs_decisions_log_2026_05_11_howling_mune_remains_umbrella_brand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_decisions_log_decisions_log",
+      "target": "docs_decisions_log_2026_05_11_v1_is_client_flow_engine_not_full_os",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_decisions_log_decisions_log",
+      "target": "docs_decisions_log_2026_05_11_one_front_door_first",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_decisions_log_decisions_log",
+      "target": "docs_decisions_log_2026_05_11_pricing_requires_human_approval",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/decisions-log.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_decisions_log_decisions_log",
+      "target": "docs_decisions_log_2026_05_11_no_overbuilding_until_data_exists",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_offer_architecture_md",
+      "target": "docs_offer_architecture_offer_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_offer_architecture_offer_architecture",
+      "target": "docs_offer_architecture_umbrella_brand",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_offer_architecture_offer_architecture",
+      "target": "docs_offer_architecture_first_build_offer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_offer_architecture_offer_architecture",
+      "target": "docs_offer_architecture_theo_s_client_facing_flagship_offer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_offer_architecture_offer_architecture",
+      "target": "docs_offer_architecture_future_offer_ladder",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_offer_architecture_offer_architecture",
+      "target": "docs_offer_architecture_what_stays_out_of_phase_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/offer-architecture.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "docs_offer_architecture_offer_architecture",
+      "target": "docs_offer_architecture_commercial_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/launch-checklist.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_launch_checklist_md",
+      "target": "docs_launch_checklist_launch_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_content_rhythm_md",
+      "target": "docs_content_rhythm_content_rhythm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_content_rhythm_content_rhythm",
+      "target": "docs_content_rhythm_principle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_content_rhythm_content_rhythm",
+      "target": "docs_content_rhythm_pillars",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_content_rhythm_content_rhythm",
+      "target": "docs_content_rhythm_cadence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "docs_content_rhythm_content_rhythm",
+      "target": "docs_content_rhythm_voice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "docs_content_rhythm_content_rhythm",
+      "target": "docs_content_rhythm_cta_rhythm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/content-rhythm.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "docs_content_rhythm_content_rhythm",
+      "target": "docs_content_rhythm_what_not_to_do",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_close_flow_md",
+      "target": "docs_close_flow_close_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_close_flow_close_flow",
+      "target": "docs_close_flow_channels",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_close_flow_close_flow",
+      "target": "docs_close_flow_sequence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_close_flow_close_flow",
+      "target": "docs_close_flow_voice_note_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_close_flow_close_flow",
+      "target": "docs_close_flow_fit_call_logic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_close_flow_close_flow",
+      "target": "docs_close_flow_objection_handling",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/close-flow.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "docs_close_flow_close_flow",
+      "target": "docs_close_flow_acceptance_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_md",
+      "target": "docs_intake_routing_spec_intake_routing_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_intake_routing_spec",
+      "target": "docs_intake_routing_spec_intake_purpose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_intake_routing_spec",
+      "target": "docs_intake_routing_spec_required_application_fields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_intake_routing_spec",
+      "target": "docs_intake_routing_spec_route_outcomes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_intake_routing_spec",
+      "target": "docs_intake_routing_spec_human_review_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_route_outcomes",
+      "target": "docs_intake_routing_spec_healing_only",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_route_outcomes",
+      "target": "docs_intake_routing_spec_photography_only",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_route_outcomes",
+      "target": "docs_intake_routing_spec_hybrid_identity_reset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_route_outcomes",
+      "target": "docs_intake_routing_spec_group_or_workshop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_route_outcomes",
+      "target": "docs_intake_routing_spec_partner_or_retreat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_route_outcomes",
+      "target": "docs_intake_routing_spec_nurture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/intake-routing-spec.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_intake_routing_spec_route_outcomes",
+      "target": "docs_intake_routing_spec_manual_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_md",
+      "target": "docs_implementation_plan_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_0_project_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_1_clarity_source_consolidation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_2_front_door",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_3_intake_crm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_4_close_flow_stripe",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/implementation-plan.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_implementation_plan_implementation_plan",
+      "target": "docs_implementation_plan_phase_5_launch_data_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_md",
+      "target": "docs_front_door_spec_front_door_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_front_door_spec",
+      "target": "docs_front_door_spec_purpose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_front_door_spec",
+      "target": "docs_front_door_spec_required_sections",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_front_door_spec",
+      "target": "docs_front_door_spec_assumptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_required_sections",
+      "target": "docs_front_door_spec_brand_hero_signal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_required_sections",
+      "target": "docs_front_door_spec_what_this_is",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_required_sections",
+      "target": "docs_front_door_spec_who_it_is_for",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_required_sections",
+      "target": "docs_front_door_spec_what_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_required_sections",
+      "target": "docs_front_door_spec_offer_first_room",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_required_sections",
+      "target": "docs_front_door_spec_fit_not_fit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_required_sections",
+      "target": "docs_front_door_spec_application_cta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/front-door-spec.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "docs_front_door_spec_required_sections",
+      "target": "docs_front_door_spec_follow_up_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/icp.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_icp_md",
+      "target": "docs_icp_icp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/icp.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_icp_icp",
+      "target": "docs_icp_primary_phase_1_icp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/icp.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_icp_icp",
+      "target": "docs_icp_working_wedge_options",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/icp.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_icp_icp",
+      "target": "docs_icp_secondary_future_icps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/icp.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "docs_icp_icp",
+      "target": "docs_icp_anti_icp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/icp.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_icp_icp",
+      "target": "docs_icp_data_still_needs_validation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/icp.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_icp_working_wedge_options",
+      "target": "docs_icp_wedge_a_bali_model_creative",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/icp.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_icp_working_wedge_options",
+      "target": "docs_icp_wedge_b_collective_retreat_corporate_buyer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/icp.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_icp_working_wedge_options",
+      "target": "docs_icp_wedge_c_self_relationship_healing_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/source-index.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_source_index_md",
+      "target": "docs_source_index_source_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/source-index.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_source_index_source_index",
+      "target": "docs_source_index_contradictions_review_flags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_doctrine_map_md",
+      "target": "docs_doctrine_map_doctrine_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_doctrine_map_doctrine_map",
+      "target": "docs_doctrine_map_core_doctrine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_doctrine_map_doctrine_map",
+      "target": "docs_doctrine_map_self_relationship",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_doctrine_map_doctrine_map",
+      "target": "docs_doctrine_map_three_layers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_doctrine_map_doctrine_map",
+      "target": "docs_doctrine_map_silence_and_contemplation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "docs_doctrine_map_doctrine_map",
+      "target": "docs_doctrine_map_structure_protects_essence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_doctrine_map_doctrine_map",
+      "target": "docs_doctrine_map_what_healing_is_and_is_not",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/doctrine-map.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_doctrine_map_doctrine_map",
+      "target": "docs_doctrine_map_assumptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_system_map_md",
+      "target": "docs_system_map_system_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_system_map_system_map",
+      "target": "docs_system_map_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_system_map_system_map",
+      "target": "docs_system_map_discovery",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_system_map_system_map",
+      "target": "docs_system_map_front_door",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_system_map_system_map",
+      "target": "docs_system_map_intake",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "docs_system_map_system_map",
+      "target": "docs_system_map_qualification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_system_map_system_map",
+      "target": "docs_system_map_crm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_system_map_system_map",
+      "target": "docs_system_map_close",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_system_map_system_map",
+      "target": "docs_system_map_paid_client",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_system_map_system_map",
+      "target": "docs_system_map_follow_up",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/system-map.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_system_map_system_map",
+      "target": "docs_system_map_data_review",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_handoff_md",
+      "target": "docs_handoff_theo_howling_mune_handoff",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_handoff_theo_howling_mune_handoff",
+      "target": "docs_handoff_who_theo_is",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_handoff_theo_howling_mune_handoff",
+      "target": "docs_handoff_what_is_real_already",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "docs_handoff_theo_howling_mune_handoff",
+      "target": "docs_handoff_business_problem",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_handoff_theo_howling_mune_handoff",
+      "target": "docs_handoff_phase_1_recommendation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "docs_handoff_theo_howling_mune_handoff",
+      "target": "docs_handoff_offer_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "docs_handoff_theo_howling_mune_handoff",
+      "target": "docs_handoff_what_should_not_be_built_yet",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "docs_handoff_theo_howling_mune_handoff",
+      "target": "docs_handoff_client_clarity_os_connection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_handoff_client_clarity_os_connection",
+      "target": "docs_handoff_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crm-spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_crm_spec_md",
+      "target": "docs_crm_spec_crm_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crm-spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_crm_spec_crm_spec",
+      "target": "docs_crm_spec_airtable_lead_fields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/crm-spec.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_crm_spec_crm_spec",
+      "target": "docs_crm_spec_status_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_blueprint_extraction_notes_md",
+      "target": "docs_blueprint_extraction_notes_blueprint_extraction_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "docs_blueprint_extraction_notes_blueprint_extraction_notes",
+      "target": "docs_blueprint_extraction_notes_extraction_boundary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_blueprint_extraction_notes_blueprint_extraction_notes",
+      "target": "docs_blueprint_extraction_notes_key_findings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "docs_blueprint_extraction_notes_blueprint_extraction_notes",
+      "target": "docs_blueprint_extraction_notes_contradictions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blueprint-extraction-notes.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_blueprint_extraction_notes_blueprint_extraction_notes",
+      "target": "docs_blueprint_extraction_notes_decisions_required_before_live_coding",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompts/close-script-generator.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "prompts_close_script_generator_md",
+      "target": "prompts_close_script_generator_close_script_generator_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompts/lead-routing.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "prompts_lead_routing_md",
+      "target": "prompts_lead_routing_lead_routing_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompts/intake-form-generator.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "prompts_intake_form_generator_md",
+      "target": "prompts_intake_form_generator_intake_form_generator_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompts/landing-page-copy.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "prompts_landing_page_copy_md",
+      "target": "prompts_landing_page_copy_landing_page_copy_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompts/blueprint-extraction.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "prompts_blueprint_extraction_md",
+      "target": "prompts_blueprint_extraction_blueprint_extraction_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "prompts/content-rhythm-generator.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "prompts_content_rhythm_generator_md",
+      "target": "prompts_content_rhythm_generator_content_rhythm_generator_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "automations_notion_page_map_md",
+      "target": "notion_page_map_notion_page_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "notion_page_map_notion_page_map",
+      "target": "notion_page_map_theo_dossier_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "notion_page_map_notion_page_map",
+      "target": "notion_page_map_source_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "notion_page_map_notion_page_map",
+      "target": "notion_page_map_blueprint_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/notion/page-map.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "notion_page_map_notion_page_map",
+      "target": "notion_page_map_public_client_facing_page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "automations_airtable_field_map_md",
+      "target": "airtable_field_map_airtable_field_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "airtable_field_map_airtable_field_map",
+      "target": "airtable_field_map_client_clarity_os_clients",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "airtable_field_map_airtable_field_map",
+      "target": "airtable_field_map_client_clarity_os_intake_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "airtable_field_map_airtable_field_map",
+      "target": "airtable_field_map_client_clarity_os_blueprint_outputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "airtable_field_map_airtable_field_map",
+      "target": "airtable_field_map_client_clarity_os_assets_data_room",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "airtable_field_map_airtable_field_map",
+      "target": "airtable_field_map_client_clarity_os_build_tasks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/airtable/field-map.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "airtable_field_map_airtable_field_map",
+      "target": "airtable_field_map_write_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "automations_n8n_workflow_spec_md",
+      "target": "n8n_workflow_spec_n8n_workflow_spec",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "n8n_workflow_spec_n8n_workflow_spec",
+      "target": "n8n_workflow_spec_workflow_a_intake_submission_airtable_lead",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "n8n_workflow_spec_n8n_workflow_spec",
+      "target": "n8n_workflow_spec_workflow_b_airtable_lead_route_notification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "n8n_workflow_spec_n8n_workflow_spec",
+      "target": "n8n_workflow_spec_workflow_c_payment_received_client_status_build_task_activation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "n8n_workflow_spec_n8n_workflow_spec",
+      "target": "n8n_workflow_spec_workflow_d_blueprint_data_dossier_generation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/n8n/workflow-spec.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "n8n_workflow_spec_n8n_workflow_spec",
+      "target": "n8n_workflow_spec_production_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "automations_stripe_milestone_flow_md",
+      "target": "stripe_milestone_flow_stripe_milestone_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "stripe_milestone_flow_stripe_milestone_flow",
+      "target": "stripe_milestone_flow_milestone_01",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "stripe_milestone_flow_stripe_milestone_flow",
+      "target": "stripe_milestone_flow_milestone_02",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "stripe_milestone_flow_stripe_milestone_flow",
+      "target": "stripe_milestone_flow_milestone_03",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "stripe_milestone_flow_stripe_milestone_flow",
+      "target": "stripe_milestone_flow_metadata_fields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "stripe_milestone_flow_stripe_milestone_flow",
+      "target": "stripe_milestone_flow_webhook_behavior",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "automations/stripe/milestone-flow.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "stripe_milestone_flow_stripe_milestone_flow",
+      "target": "stripe_milestone_flow_rule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "skills_theo_client_flow_engine_skill_md",
+      "target": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "target": "theo_client_flow_engine_skill_purpose",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "target": "theo_client_flow_engine_skill_inputs_required",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "target": "theo_client_flow_engine_skill_source_materials",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "target": "theo_client_flow_engine_skill_outputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "target": "theo_client_flow_engine_skill_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "target": "theo_client_flow_engine_skill_first_build_logic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "target": "theo_client_flow_engine_skill_routing_logic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "target": "theo_client_flow_engine_skill_human_review_gates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_theo_client_flow_engine_skill",
+      "target": "theo_client_flow_engine_skill_client_clarity_os_connection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_first_build_logic",
+      "target": "theo_client_flow_engine_skill_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "skills/theo-client-flow-engine/SKILL.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "theo_client_flow_engine_skill_client_clarity_os_connection",
+      "target": "theo_client_flow_engine_skill_codeblock_2",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "1e1c2daa150813faa8e31544f15bf1e942f74f8f"
+}
