@@ -2,42 +2,49 @@
 
 ## Primary Phase 1 ICP
 
-People already sensing a serious inner or identity shift who are ready for a guided, grounded container and can move from interest to application to paid engagement.
+Sourced but not yet fully validated: people in an identity, healing, or self-relationship transition who are willing to apply, have budget comfort, and value depth over performance.
 
-Likely signals:
+This is supported by:
 
-- they feel a real "why now"
-- they are seeking self-relationship, healing, embodiment, or identity renewal
-- they value depth over performance
-- they can describe the current challenge and desired shift
-- they have budget comfort for premium 1:1 or hybrid support
+- April 21: self-relationship, group dynamics, physical/metaphysical/ego work.
+- The Creative Container: a proposed Bali model/creative wedge, age 22-35, in Bali 1-3 months, high wellness/nightlife spend, identity drift.
+- Strategic proposals: aligned high-value work, qualified leads, readiness, budget, and best-fit pathway.
+
+## Working Wedge Options
+
+### Wedge A - Bali Model / Creative
+
+This comes from The Creative Container. It is specific and commercially useful, but should be treated as a hypothesis until Theo/Major approve it.
+
+### Wedge B - Collective / Retreat / Corporate Buyer
+
+This comes from the May 6 discussion. It may become the larger model, but it is too broad for the first front door unless Major chooses to make it the immediate entry path.
+
+### Wedge C - Self-Relationship / Healing Client
+
+This comes from the April 21 conversation. It is authentic to Theo’s current language but needs a clearer paid offer and qualification logic before launch.
 
 ## Secondary Future ICPs
 
 - group/workshop participants
-- creative or visual identity clients
 - retreat collaborators
-- practitioner network candidates
-- corporate or organizational partners
+- corporate retreat decision-makers
+- local venue/resort partners
+- healer/practitioner collaborators
+- photography/visual identity clients
 
 ## Anti-ICP
 
-- people seeking quick performance content
-- people wanting guaranteed outcomes
-- people seeking medical or clinical claims
-- people unable to consent to a reflective/intake process
-- people looking for discount-first, urgency-only transactions
+- people seeking guaranteed results
+- people seeking trend-based healing content
+- people looking for a vague “session” with no readiness
+- people who want Theo to manually explain everything before applying
+- clients outside budget comfort for the first paid path
 
-## Wedge Logic
+## Data Still Needs Validation
 
-Start with the pathway closest to revenue and proof: a clear front door into the flagship offer. Use data from early applications to decide whether healing-only, photography-only, hybrid identity reset, group/workshop, or partner paths deserve dedicated pages later.
-
-## Data Still Needed
-
-- strongest paid proof
-- exact current offer language
-- best-fit client examples
-- price comfort and final build fee
-- source of current best leads
-- preferred close channel
-- assets available for trust-building
+- Which first audience is actually chosen.
+- Whether the Bali model/creative wedge is approved.
+- Whether the collective/corporate model is Phase 1 positioning or future architecture.
+- Actual paid proof, strongest client examples, and language from past clients.
+- Budget threshold and close readiness.

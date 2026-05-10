@@ -1,47 +1,51 @@
 # Front Door Spec
 
-## Hero
+This is a specification only. Do not write public-facing landing page copy until Major/human review.
 
-Signal Howling Mune immediately. Use the tagline "Giving you back to you" only if approved for this page. The hero should lead with the work, not Theo's résumé or a generic wellness promise.
+## Purpose
 
-## Who It Is For
+The front door exists because the strategic sources identify the current gap as the pathway around the work: too much depends on random discovery, referrals, manual explanation, and inconsistent conversion.
 
-People in a serious moment of self-relationship, identity, embodiment, or creative return who want depth and structure without performance theater.
+## Required Sections
 
-## Transformation
+### Brand / Hero Signal
 
-Frame transformation as a guided return to clarity, self-contact, and embodied direction. Avoid guarantees.
+Signal Howling Mune immediately. Do not lead with a generic wellness promise. Any use of “Giving you back to you” requires human approval because it came from the project brief, not the local source files.
 
-## Offer
+### What This Is
 
-Introduce the first flagship path as the first available room inside Howling Mune. Final name and pricing require human approval.
+Explain that this is a clear entry path into Howling Mune’s work, not the full retreat/corporate/collective OS.
 
-## Fit / Not Fit
+### Who It Is For
 
-Fit:
+Use the approved ICP after review. Current candidates are:
 
-- reflective
-- ready for honest self-contact
-- values depth
-- willing to apply
+- self-relationship/healing transition
+- Bali model/creative identity reset
+- collective/retreat/corporate partner
 
-Not fit:
+### What Changes
 
-- seeking guaranteed results
-- seeking performative visibility
-- looking for a quick content hack
-- unwilling to complete intake
+Frame change as clarity, self-contact, identity alignment, and a clearer path into the work. Avoid guaranteed outcomes.
 
-## CTA
+### Offer / First Room
 
-Primary CTA: apply / request alignment review.
+Introduce only the approved first room. The system should not present every future idea at once.
 
-Secondary CTA: ask a question through the approved close channel.
+### Fit / Not Fit
 
-## Application
+Fit should screen for readiness, depth, budget comfort, and willingness to apply.
 
-Application should be short enough to complete, deep enough to qualify, and structured enough to route.
+Not fit should screen out trend-chasers, people seeking guarantees, vague curiosity without readiness, and people asking for the full future ecosystem before V1 exists.
 
-## Follow-Up Path
+### Application CTA
 
-Submitted applications create Airtable leads, route outcome, notification, next action, and follow-up status.
+CTA should lead to the intake/application. The proposal sources repeatedly support application before Theo spends energy manually.
+
+### Follow-Up Path
+
+Submission should create an Airtable lead, route the lead, notify the operator, and set next action.
+
+## Assumptions
+
+- Notion can be used as a client-facing layer if chosen, but the app/front door still needs final platform decision.

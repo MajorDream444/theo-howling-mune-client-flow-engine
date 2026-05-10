@@ -1,6 +1,10 @@
 # Intake Routing Spec
 
-## Core Application Fields
+## Intake Purpose
+
+The intake should capture intent, readiness, budget, and best-fit path before Theo spends energy manually. This is directly supported by the proposal/SOW sources.
+
+## Required Application Fields
 
 - full name
 - email
@@ -18,32 +22,41 @@
 - consent
 - notes
 
-## Routing Outcomes
+## Route Outcomes
 
 ### healing_only
 
-Lead is primarily seeking self-relationship, healing, embodiment, contemplation, or support through a personal transition.
+Use when the lead primarily asks for self-relationship, healing, embodiment, or personal transition support. Source basis: April 21 transcript.
 
 ### photography_only
 
-Lead is primarily seeking photography, creative identity, or visual identity support without deeper container language.
+Use when the lead primarily asks for photography or visual identity without deeper container language. Source basis: Theo’s photography/creative background and out-of-scope warning around wedding photography expansion.
 
 ### hybrid_identity_reset
 
-Lead is seeking both inner shift and visual/identity renewal. This may map to the possible Identity Reset / Visual Rebirth flagship path after approval.
+Use when the lead asks for both inner/identity change and visual/creative documentation. Source basis: The Creative Container’s Identity Reset / Visual Rebirth concept. Requires approval before public use.
 
 ### group_or_workshop
 
-Lead asks for group work, men's work, workshops, circles, or collective containers.
-
-### nurture
-
-Lead is interested but unclear, not ready, low budget comfort, or needs more trust-building.
+Use when the lead wants group, workshop, dinner/conversation, men’s work, or collective experience. Source basis: April 21 and May 6 discussions.
 
 ### partner_or_retreat
 
-Lead is a collaborator, retreat partner, venue, practitioner, or organizational opportunity.
+Use for venues, resorts, corporate buyers, retreat collaborators, or healer/practitioner partnership opportunities. Source basis: May 6 collective/retreat/corporate discussion.
+
+### nurture
+
+Use when interest exists but readiness, budget, timing, or clarity is weak.
 
 ### manual_review
 
-Route is unclear, sensitive, high-value, complex, or requires Major/Theo review before response.
+Use for low-confidence routing, sensitive healing context, minors/age-safety concerns, partner/corporate opportunities, price exceptions, or anything involving public claims.
+
+## Human Review Required
+
+- first offer selection
+- first audience selection
+- route language visible to prospects
+- budget thresholds
+- handling of sensitive healing claims
+- partner/corporate leads

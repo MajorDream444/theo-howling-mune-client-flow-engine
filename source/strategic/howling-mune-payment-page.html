@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOWLING MUNE — Secure Payment</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://js.stripe.com/v3/"></script>
+
+<style>
+  /* ── VARIABLES ─────────────────────────────── */
+  :root {
+    --black:   #0B0B0B;
+    --offwhite:#F5F3EF;
+    --gold:    #C6A96B;
+    --ash:     #B8B8B8;
+    --darkash: #3A3A3A;
+    --mid:     #666;
+    --rule:    #E0DDD8;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { height: 100%; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--offwhite);
+    color: var(--black);
+    font-size: 14px;
+  }
+
+  /* ── HEADER ──────────────────────────────────── */
+  .header {
+    background: var(--black);
+    padding: 13px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #1A1A1A;
+  }
+  .h-brand {
+    display: flex; align-items: baseline; gap: 9px;
+  }
+  .h-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px; font-weight: 600;
+    color: var(--offwhite); letter-spacing: 0.05em;
+  }
+  .h-sep { color: var(--gold); font-family: 'Cormorant Garamond', serif; font-size: 17px; }
+  .h-sub {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px; font-weight: 300;
+    color: var(--gold);
+  }
+  .h-secure {
+    font-size: 10px; letter-spacing: 0.1em;
+    color: var(--darkash); text-transform: uppercase;
+    display: flex; align-items: center; gap: 6px;
+  }
+  .h-lock {
+    width: 14px; height: 14px;
+    border: 1.5px solid var(--darkash);
+    border-radius: 3px; position: relative;
+  }
+  .h-lock::after {
+    content: '';
+    position: absolute; top: -5px; left: 2px;
+    width: 8px; height: 6px;
+    border: 1.5px solid var(--darkash);
+    border-radius: 4px 4px 0 0;
+    border-bottom: none;
+  }
+
+  /* ── LAYOUT ──────────────────────────────────── */
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    min-height: calc(100vh - 50px);
+  }
+
+  /* ── LEFT ────────────────────────────────────── */
+  .left {
+    padding: 44px 52px;
+    border-right: 1px solid var(--rule);
+    overflow-y: auto;
+  }
+  .section-label {
+    font-size: 10px; letter-spacing: 0.14em;
+    text-transform: uppercase; font-weight: 500;
+    color: var(--gold); margin-bottom: 22px;
+  }
+
+  /* Stages */
+  .stages { display: flex; flex-direction: column; gap: 3px; margin-bottom: 36px; }
+  .stage {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 16px 18px;
+    cursor: pointer;
+    transition: border-color .15s, background .15s;
+    user-select: none;
+  }
+  .stage:hover:not(.locked) { border-color: rgba(198,169,107,.4); background: rgba(198,169,107,.03); }
+  .stage.active { border-color: var(--gold); background: rgba(198,169,107,.06); }
+  .stage.locked { opacity: .45; cursor: default; }
+
+  .stage-header {
+    display: flex; justify-content: space-between;
+    align-items: center; margin-bottom: 5px;
+  }
+  .stage-left { display: flex; align-items: center; gap: 10px; }
+  .radio {
+    width: 14px; height: 14px;
+    border: 1.5px solid var(--ash); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0; transition: border-color .15s;
+  }
+  .stage.active .radio { border-color: var(--gold); }
+  .radio-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%; background: var(--gold);
+    opacity: 0; transition: opacity .15s;
+  }
+  .stage.active .radio-dot { opacity: 1; }
+  .stage-num {
+    font-size: 10px; letter-spacing: .1em;
+    color: var(--gold); text-transform: uppercase; font-weight: 500;
+  }
+  .stage-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px; font-weight: 600; color: var(--black);
+  }
+  .stage-amt {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; font-weight: 600; color: var(--black);
+  }
+  .stage-trigger {
+    font-size: 11px; color: var(--mid); margin-bottom: 10px;
+  }
+  .stage-items {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 3px 12px;
+  }
+  .stage-item {
+    font-size: 11px; color: var(--darkash);
+    display: flex; gap: 5px; align-items: baseline;
+  }
+  .stage-item::before {
+    content: '—'; color: var(--gold);
+    font-size: 10px; flex-shrink: 0;
+  }
+
+  /* Summary row */
+  .summary-row {
+    display: flex; justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 24px;
+  }
+  .sum-label { font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--mid); }
+  .sum-amt {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px; font-weight: 600; color: var(--black);
+    line-height: 1;
+  }
+  .sum-right { text-align: right; }
+  .sum-total-label { font-size: 10px; color: var(--ash); margin-bottom: 2px; }
+  .sum-total {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px; color: var(--mid);
+  }
+  .sum-remain { font-size: 10px; color: var(--ash); margin-top: 2px; }
+
+  /* Perf note */
+  .perf {
+    background: var(--black); color: var(--offwhite);
+    border-radius: 4px; padding: 14px 16px;
+    font-size: 11px; line-height: 1.65;
+  }
+  .perf strong { color: var(--gold); }
+
+  /* ── RIGHT ───────────────────────────────────── */
+  .right {
+    background: var(--black);
+    padding: 44px 36px;
+    display: flex; flex-direction: column;
+    gap: 16px;
+  }
+  .right .section-label { color: var(--ash); margin-bottom: 0; }
+
+  /* Selected card */
+  .sel-card {
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 4px;
+    padding: 14px 16px;
+  }
+  .sel-label { font-size: 9px; letter-spacing: .12em; color: var(--darkash); text-transform: uppercase; margin-bottom: 6px; }
+  .sel-row { display: flex; justify-content: space-between; align-items: center; }
+  .sel-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px; color: var(--offwhite);
+  }
+  .sel-price {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; font-weight: 600; color: var(--gold);
+  }
+
+  /* Brex card */
+  .brex-card {
+    background: #0E0E0E;
+    border: 1px solid #1E1E1E;
+    border-radius: 4px;
+    padding: 13px 16px;
+  }
+  .brex-tag { font-size: 9px; letter-spacing: .12em; color: var(--darkash); text-transform: uppercase; margin-bottom: 7px; }
+  .brex-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px; color: var(--offwhite); margin-bottom: 4px;
+  }
+  .brex-detail { font-size: 11px; color: var(--darkash); line-height: 1.7; }
+  .brex-detail b { color: var(--ash); font-weight: 500; }
+
+  /* Pay button */
+  .pay-btn {
+    width: 100%;
+    background: var(--gold); color: var(--black);
+    border: none; border-radius: 4px;
+    padding: 15px 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px; font-weight: 500;
+    letter-spacing: .08em; text-transform: uppercase;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    transition: background .15s, transform .1s;
+  }
+  .pay-btn:hover { background: #D4B87A; transform: translateY(-1px); }
+  .pay-btn:active { transform: translateY(0); }
+  .pay-btn.loading { opacity: .7; cursor: default; pointer-events: none; }
+  .pay-btn-amt {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px; font-weight: 600;
+  }
+
+  /* Stripe badge */
+  .stripe-badge {
+    display: flex; align-items: center;
+    justify-content: center; gap: 6px;
+    font-size: 10px; color: var(--darkash);
+  }
+  .s-pill {
+    background: #635BFF; border-radius: 3px;
+    width: 16px; height: 16px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 700; color: white;
+  }
+
+  /* Alt */
+  .divider {
+    display: flex; align-items: center; gap: 8px;
+  }
+  .divider-line { flex: 1; height: 1px; background: #1E1E1E; }
+  .divider-or { font-size: 10px; color: var(--darkash); letter-spacing: .08em; }
+
+  .wire-btn {
+    width: 100%; padding: 12px;
+    background: transparent;
+    border: 1px solid #2A2A2A; border-radius: 4px;
+    color: var(--darkash); font-size: 11px;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer; letter-spacing: .03em;
+    transition: border-color .15s, color .15s;
+  }
+  .wire-btn:hover { border-color: var(--darkash); color: var(--ash); }
+
+  /* Eco footer */
+  .eco {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #161616;
+    font-size: 10px; color: #2A2A2A;
+    letter-spacing: .07em; line-height: 1.8;
+  }
+
+  /* Toast */
+  .toast {
+    position: fixed; bottom: 24px; right: 24px;
+    background: var(--black); color: var(--gold);
+    border: 1px solid var(--gold); border-radius: 4px;
+    padding: 12px 18px; font-size: 12px;
+    opacity: 0; pointer-events: none;
+    transition: opacity .25s;
+    z-index: 100;
+  }
+  .toast.show { opacity: 1; }
+</style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<div class="header">
+  <div class="h-brand">
+    <span class="h-name">HOWLING MUNE</span>
+    <span class="h-sep">—</span>
+    <span class="h-sub">Foundation + Front Door</span>
+  </div>
+  <div class="h-secure">
+    <div class="h-lock"></div>
+    Secured by Stripe · USD
+  </div>
+</div>
+
+<div class="layout">
+
+  <!-- ── LEFT: Stage selection ── -->
+  <div class="left">
+    <div class="section-label">Choose Your Stage</div>
+
+    <div class="stages" id="stages">
+
+      <div class="stage active"
+           data-stage="1"
+           data-amount="2500"
+           data-label="Stage 1 — Foundation + Clarity"
+           data-link="STAGE_1_PAYMENT_LINK">
+        <div class="stage-header">
+          <div class="stage-left">
+            <div class="radio"><div class="radio-dot"></div></div>
+            <span class="stage-num">Stage 1</span>
+            <span class="stage-name">Foundation + Clarity</span>
+          </div>
+          <span class="stage-amt">$2,500</span>
+        </div>
+        <div class="stage-trigger">Due to begin upon agreement</div>
+        <div class="stage-items">
+          <div class="stage-item">Doctrine extraction</div>
+          <div class="stage-item">System architecture</div>
+          <div class="stage-item">First offer + audience decision</div>
+          <div class="stage-item">Required asset list</div>
+          <div class="stage-item">Collective positioning map</div>
+          <div class="stage-item">30-day action map</div>
+        </div>
+      </div>
+
+      <div class="stage"
+           data-stage="2"
+           data-amount="2000"
+           data-label="Stage 2 — Build"
+           data-link="STAGE_2_PAYMENT_LINK">
+        <div class="stage-header">
+          <div class="stage-left">
+            <div class="radio"><div class="radio-dot"></div></div>
+            <span class="stage-num">Stage 2</span>
+            <span class="stage-name">Build</span>
+          </div>
+          <span class="stage-amt">$2,000</span>
+        </div>
+        <div class="stage-trigger">Due before build phase</div>
+        <div class="stage-items">
+          <div class="stage-item">Landing page / entry page</div>
+          <div class="stage-item">Routing logic</div>
+          <div class="stage-item">Intake form</div>
+          <div class="stage-item">Lead source tracking</div>
+          <div class="stage-item">CRM / lead tracker</div>
+        </div>
+      </div>
+
+      <div class="stage"
+           data-stage="3"
+           data-amount="2000"
+           data-label="Stage 3 — Activate"
+           data-link="STAGE_3_PAYMENT_LINK">
+        <div class="stage-header">
+          <div class="stage-left">
+            <div class="radio"><div class="radio-dot"></div></div>
+            <span class="stage-num">Stage 3</span>
+            <span class="stage-name">Activate</span>
+          </div>
+          <span class="stage-amt">$2,000</span>
+        </div>
+        <div class="stage-trigger">Due before activation / handoff</div>
+        <div class="stage-items">
+          <div class="stage-item">Lead flow plan</div>
+          <div class="stage-item">First optimization pass</div>
+          <div class="stage-item">Referral + partnership pathways</div>
+          <div class="stage-item">Handoff documentation</div>
+          <div class="stage-item">WhatsApp / voice-note close</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Summary -->
+    <div class="summary-row">
+      <div>
+        <div class="sum-label">Selected Payment</div>
+        <div class="sum-amt" id="sumAmt">$2,500</div>
+      </div>
+      <div class="sum-right">
+        <div class="sum-total-label">Total Build Fee</div>
+        <div class="sum-total">$6,500 USD</div>
+        <div class="sum-remain" id="sumRemain">$4,000 remaining after this stage</div>
+      </div>
+    </div>
+
+    <!-- Performance note -->
+    <div class="perf">
+      <strong>+ 10% Performance Alignment</strong> — 6 months from launch.<br>
+      Applies to leads and revenue generated through the system we build.
+      The build fee creates the engine. The alignment keeps us focused on one thing:
+      real clients coming through.
+    </div>
+  </div>
+
+  <!-- ── RIGHT: Pay panel ── -->
+  <div class="right">
+    <div class="section-label">Secure Checkout</div>
+
+    <!-- Selected stage summary -->
+    <div class="sel-card">
+      <div class="sel-label">You are paying for</div>
+      <div class="sel-row">
+        <div class="sel-name" id="selName">Stage 1 — Foundation + Clarity</div>
+        <div class="sel-price" id="selPrice">$2,500</div>
+      </div>
+    </div>
+
+    <!-- Brex destination -->
+    <div class="brex-card">
+      <div class="brex-tag">Payment Destination</div>
+      <div class="brex-name">AMA Solutions Corporation</div>
+      <div class="brex-detail">
+        Brex Business Checking<br>
+        Account <b>···4495</b> &nbsp;·&nbsp; Routing <b>[REDACTED_ROUTING_NUMBER]</b><br>
+        Settled via Stripe ACH payout
+      </div>
+    </div>
+
+    <!-- Pay via Stripe button -->
+    <button class="pay-btn" id="payBtn" onclick="handlePay()">
+      <span>Pay</span>
+      <span class="pay-btn-amt" id="btnAmt">$2,500</span>
+      <span>via Stripe</span>
+    </button>
+
+    <!-- Stripe badge -->
+    <div class="stripe-badge">
+      <div class="s-pill">S</div>
+      Stripe Checkout · TLS 1.3 · PCI DSS Level 1
+    </div>
+
+    <!-- Divider -->
+    <div class="divider">
+      <div class="divider-line"></div>
+      <div class="divider-or">or</div>
+      <div class="divider-line"></div>
+    </div>
+
+    <!-- Wire / Crypto fallback -->
+    <button class="wire-btn" onclick="copyWire()">
+      Copy wire details — for bank transfer or USDC / USDT
+    </button>
+
+    <!-- Ecosystem footer -->
+    <div class="eco">
+      AMA SOLUTIONS CORPORATION · HANZO AI · LUX<br>
+      HOWLING MUNE — CONFIDENTIAL — 2026
+    </div>
+  </div>
+
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ── CONFIG ──────────────────────────────────────────────────────────────
+// After running create_payment_links.py, paste the 3 URLs here:
+const PAYMENT_LINKS = {
+  '1': 'STAGE_1_PAYMENT_LINK',   // e.g. https://buy.stripe.com/xxxx
+  '2': 'STAGE_2_PAYMENT_LINK',   // e.g. https://buy.stripe.com/xxxx
+  '3': 'STAGE_3_PAYMENT_LINK',   // e.g. https://buy.stripe.com/xxxx
+};
+
+const STRIPE_PK = 'STRIPE_PUBLISHABLE_KEY_PLACEHOLDER';
+
+// Init Stripe (publishable key — safe to be public)
+const stripe = Stripe(STRIPE_PK);
+
+// ── STATE ────────────────────────────────────────────────────────────────
+let activeStage = '1';
+
+const remaining = { '1': 4000, '2': 2000, '3': 0 };
+
+// ── STAGE SELECTION ──────────────────────────────────────────────────────
+document.querySelectorAll('.stage').forEach(el => {
+  el.addEventListener('click', () => {
+    if (el.classList.contains('locked')) return;
+    document.querySelectorAll('.stage').forEach(s => s.classList.remove('active'));
+    el.classList.add('active');
+
+    activeStage = el.dataset.stage;
+    const amt   = parseInt(el.dataset.amount).toLocaleString();
+    const label = el.dataset.label;
+    const rem   = remaining[activeStage];
+
+    document.getElementById('sumAmt').textContent    = '$' + amt;
+    document.getElementById('selName').textContent   = label;
+    document.getElementById('selPrice').textContent  = '$' + amt;
+    document.getElementById('btnAmt').textContent    = '$' + amt;
+    document.getElementById('sumRemain').textContent = rem > 0
+      ? '$' + rem.toLocaleString() + ' remaining after this stage'
+      : 'Final stage — build complete';
+  });
+});
+
+// ── PAY HANDLER ──────────────────────────────────────────────────────────
+function handlePay() {
+  const link = PAYMENT_LINKS[activeStage];
+
+  if (!link || link.startsWith('STAGE_')) {
+    // Links not yet configured — show setup instructions
+    showToast('Run create_payment_links.py to generate your Stripe URLs, then paste them in.');
+    return;
+  }
+
+  const btn = document.getElementById('payBtn');
+  btn.classList.add('loading');
+  btn.innerHTML = '<span>Opening Stripe Checkout…</span>';
+
+  // Redirect to Stripe hosted Payment Link
+  window.location.href = link;
+}
+
+// ── WIRE COPY ────────────────────────────────────────────────────────────
+function copyWire() {
+  const text = [
+    'AMA Solutions Corporation — Wire Transfer Details',
+    '─────────────────────────────────────────────',
+    'Beneficiary:    AMA Solutions Corporation',
+    'Account:        [REDACTED_BANK_ACCOUNT]',
+    'Account Type:   Business Checking',
+    'ABA / Routing:  [REDACTED_ROUTING_NUMBER]',
+    'SWIFT / BIC:    [REDACTED_SWIFT]',
+    'Bank:           Column NA - Brex',
+    'Bank Address:   1 Letterman Drive, Bldg A, Suite A4-700',
+    '                San Francisco, CA 94129',
+    '',
+    'Intermediary:   JPMorgan Chase Bank N.A.',
+    'Int. SWIFT:     [REDACTED_SWIFT]',
+    'Int. Address:   383 Madison Avenue, New York, NY 10179',
+    '',
+    'Beneficiary Address: 16192 Coastal Hwy, Lewes, DE 19958',
+    '',
+    'Payment reference: HOWLING MUNE — Stage [1 / 2 / 3]',
+    'USDC / USDT: Contact Major Dream Williams for wallet address.',
+  ].join('\n');
+
+  navigator.clipboard.writeText(text)
+    .then(() => showToast('Wire details copied to clipboard.'))
+    .catch(() => showToast('Copy failed — use manual selection.'));
+}
+
+// ── TOAST ────────────────────────────────────────────────────────────────
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 4000);
+}
+</script>
+</body>
+</html>

@@ -1,35 +1,45 @@
 # Doctrine Map
 
-## Howling Mune Doctrine
+## Core Doctrine
 
-Howling Mune is the house. Its first public system should invite the right people into the work without flattening the work into generic wellness language.
-
-## Giving You Back To You
-
-The tagline points to restoration of self-relationship. The work should be framed around returning people to themselves, not selling an external identity, status marker, or borrowed performance.
-
-## Layers
-
-- Physical: body, nervous system, somatic experience, lived behavior.
-- Metaphysical: meaning, unseen pattern, spiritual orientation, inner listening.
-- Ego: identity, defense, performance, self-image, separation from true contact.
-
-## Silence And Contemplation
-
-Silence and contemplation are not decorative brand words. They are part of the method and should shape the tone of the front door: calm, precise, spacious, direct.
+Howling Mune’s sourced doctrine is not “more ideas.” It is a container around real work so the right people can find it, understand it, apply, and move into paid engagement.
 
 ## Self-Relationship
 
-The work centers the client's relationship with themselves. V1 intake should ask what they are seeking, what pattern is repeating, what shift they want, and why now.
+The April 21 transcript names self-relationship as central to Theo’s coaching/counseling work. The intake and front door should therefore ask what relationship the person is trying to repair with themselves, what pattern is repeating, and why now.
 
-## Healing Is And Is Not
+## Three Layers
 
-Healing is treated here as a return to contact, clarity, and integrated self-relationship.
+Theo names three layers:
 
-Healing is not:
+- physical
+- metaphysical
+- ego
 
-- a guaranteed outcome
-- a public transformation claim
-- a performative lifestyle product
-- a medical promise
-- a substitute for licensed care where licensed care is required
+The Creative Container expands this into a transformation framework that treats body/biology, energy/frequency, and self-image as connected parts of the container. That framework is useful but should be reviewed before becoming public-facing doctrine.
+
+## Silence And Contemplation
+
+The April 21 transcript gives strong source support for silence and contemplation. Theo says intentional clarity is harder because people are bombarded by information, and he links knowledge/wisdom to silence and experience. This should shape the system tone: spacious, clear, and not frantic.
+
+## Structure Protects Essence
+
+Both blueprint materials and The Creative Container argue that structure protects the work rather than killing it. The repeated principle is clarity before scale: one offer, one audience, one path before expansion.
+
+## What Healing Is And Is Not
+
+Sourced safe framing:
+
+- healing is connected to self-relationship, embodiment, clarity, and intentional growth
+- healing may happen through conversation, group dynamics, silence, contemplation, and grounded practice
+
+Do not claim:
+
+- guaranteed transformation
+- medical/clinical outcomes
+- that frequency/biometric concepts are part of V1
+- that all retreat/corporate systems are ready now
+
+## Assumptions
+
+- “Giving you back to you” is included as brand doctrine only from the project brief; it still needs confirmation in source or human approval.
