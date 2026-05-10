@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://major-dream.local/schemas/theo-lead.schema.json",
+  "title": "Theo Howling Mune Lead",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["lead_name", "email", "pathway", "status", "next_action"],
+  "properties": {
+    "lead_name": { "type": "string" },
+    "email": { "type": "string", "format": "email" },
+    "whatsapp": { "type": "string" },
+    "location": { "type": "string" },
+    "source": { "type": "string" },
+    "pathway": {
+      "type": "string",
+      "enum": [
+        "healing_only",
+        "photography_only",
+        "hybrid_identity_reset",
+        "group_or_workshop",
+        "nurture",
+        "partner_or_retreat",
+        "manual_review"
+      ]
+    },
+    "readiness": { "type": "string", "enum": ["low", "medium", "high", "urgent", "unknown"] },
+    "budget": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["new", "reviewing", "contacted", "fit_call", "proposal_sent", "paid", "nurture", "closed_lost"]
+    },
+    "last_contact": { "type": "string", "format": "date" },
+    "next_action": { "type": "string" },
+    "close_probability": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "offer_interest": { "type": "string" },
+    "notes": { "type": "string" },
+    "airtable_record_id": { "type": "string" }
+  }
+}

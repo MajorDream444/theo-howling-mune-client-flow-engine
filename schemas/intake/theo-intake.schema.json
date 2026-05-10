@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://major-dream.local/schemas/theo-intake.schema.json",
+  "title": "Theo Howling Mune Intake",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "full_name",
+    "email",
+    "why_now",
+    "what_are_you_seeking",
+    "current_challenge",
+    "desired_shift",
+    "pathway_interest",
+    "consent"
+  ],
+  "properties": {
+    "full_name": { "type": "string", "minLength": 1 },
+    "email": { "type": "string", "format": "email" },
+    "whatsapp": { "type": "string" },
+    "location": { "type": "string" },
+    "source": { "type": "string" },
+    "why_now": { "type": "string", "minLength": 1 },
+    "what_are_you_seeking": { "type": "string", "minLength": 1 },
+    "current_challenge": { "type": "string", "minLength": 1 },
+    "desired_shift": { "type": "string", "minLength": 1 },
+    "time_in_bali_or_location_context": { "type": "string" },
+    "pathway_interest": {
+      "type": "string",
+      "enum": [
+        "healing_self_relationship",
+        "photography_visual_identity",
+        "hybrid_identity_reset",
+        "group_workshop",
+        "partner_retreat",
+        "not_sure"
+      ]
+    },
+    "budget_comfort": {
+      "type": "string",
+      "enum": ["under_1000", "1000_3000", "3000_6500", "6500_plus", "not_sure", "prefer_to_discuss"]
+    },
+    "preferred_format": {
+      "type": "string",
+      "enum": ["one_to_one", "group", "workshop", "retreat", "hybrid", "not_sure"]
+    },
+    "consent": { "type": "boolean", "const": true },
+    "notes": { "type": "string" }
+  }
+}

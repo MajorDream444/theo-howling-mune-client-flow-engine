@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://major-dream.local/schemas/theo-routing.schema.json",
+  "title": "Theo Howling Mune Routing",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["route", "confidence", "reason", "human_review_required"],
+  "properties": {
+    "route": {
+      "type": "string",
+      "enum": [
+        "healing_only",
+        "photography_only",
+        "hybrid_identity_reset",
+        "group_or_workshop",
+        "nurture",
+        "partner_or_retreat",
+        "manual_review"
+      ]
+    },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "reason": { "type": "string" },
+    "recommended_next_action": { "type": "string" },
+    "human_review_required": { "type": "boolean" }
+  }
+}
